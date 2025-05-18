@@ -1,58 +1,56 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ToDo List</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
+import './App.css';
+import './styles/style.css';
+
+function App() {
+  return (
+    <div>
 <body>
-  <aside class="sidebar">
-    <div class="date-time">
+  <aside className="sidebar">
+    <div className="date-time">
       <div id="current-date"></div>
       <div id="current-time"></div>
     </div>
-    <nav class="folders">
-      <ul class="folder-list">
-        <li class="folder">
-          <div class="folder-header">
-            <span class="folder-toggle">▶</span>
+    <nav className="folders">
+      <ul className="folder-list">
+        <li className="folder">
+          <div className="folder-header">
+            <span className="folder-toggle">▶️</span>
             <img src="img/icon/folder.svg" alt="Folder" />
             Задания
           </div>
-          <ul class="folder-children">
-            <li class="folder">
-              <div class="folder-header">
-                <span class="folder-toggle">▶</span>
+          <ul className="folder-children">
+            <li className="folder">
+              <div className="folder-header">
+                <span className="folder-toggle">▶️</span>
                 <img src="img/icon/folder.svg" alt="Folder" />
                 Работа
               </div>
             </li>
-            <li class="folder">
-              <div class="folder-header">
-                <span class="folder-toggle">▶</span>
+            <li className="folder">
+              <div className="folder-header">
+                <span className="folder-toggle">▶️</span>
                 <img src="img/icon/folder.svg" alt="Folder" />
                 Личное
               </div>
-              <ul class="folder-children">
-                <li class="file active">
-                  <div class="folder-header">
+              <ul className="folder-children">
+                <li className="file active">
+                  <div className="folder-header">
                     <img src="img/icon/file.svg" alt="File" />
                     Дела на сегодня
                   </div>
                 </li>
               </ul>
             </li>
-            <li class="folder">
-              <div class="folder-header">
-                <span class="folder-toggle">▶</span>
+            <li className="folder">
+              <div className="folder-header">
+                <span className="folder-toggle">▶️</span>
                 <img src="img/icon/folder.svg" alt="Folder" />
                 Учёба
               </div>
             </li>
-            <li class="folder">
-              <div class="folder-header">
-                <span class="folder-toggle">▶</span>
+            <li className="folder">
+              <div className="folder-header">
+                <span className="folder-toggle">▶️</span>
                 <img src="img/icon/folder.svg" alt="Folder" />
                 Архив
               </div>
@@ -61,21 +59,21 @@
         </li>
       </ul>
     </nav>
-    <div class="deleted" id="deleted-tab">
+    <div className="deleted" id="deleted-tab">
       <img src="img/icon/bin.svg" alt="Bin" />
       Удалено
     </div>
   </aside>
 
-  <main class="main">
-    <header class="main-header">
+  <main className="main">
+    <header className="main-header">
       <h1>Дела на сегодня</h1>
       <button id="add-task-btn">Добавить задачу</button>
     </header>
-    <div class="controls">
+    <div className="controls">
       <input type="text" id="search-input" placeholder="Поиск…" />
     </div>
-    <table class="tasks-table">
+    <table className="tasks-table">
       <thead>
         <tr>
           <th></th>
@@ -90,8 +88,8 @@
     </table>
   </main>
 
-  <div class="modal" id="task-modal">
-    <div class="modal-content">
+  <div className="modal" id="task-modal">
+    <div className="modal-content">
       <h2 id="modal-title">Добавить задачу</h2>
       <form id="task-form">
         <label>
@@ -114,7 +112,7 @@
           Дата:
           <input type="date" id="task-date" required />
         </label>
-        <div class="modal-actions">
+        <div className="modal-actions">
           <button type="submit">Сохранить</button>
           <button type="button" id="cancel-btn">Отмена</button>
         </div>
@@ -124,4 +122,8 @@
 
   <script src="script.js"></script>
 </body>
-</html>
+</div>
+  );
+}
+
+export default App;
