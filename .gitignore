@@ -27,3 +27,8 @@ yarn-error.log*
 venv
 .venv
 /venv
+
+node_modules/
+.mypy_cache/
+.vscode/
+__pycache__/
