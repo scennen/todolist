@@ -89,7 +89,7 @@ class TaskViewSet(viewsets.ModelViewSet):
 
     @action(detail=False, methods=['get'], url_path='deleted')
     def deleted_tasks(self, request):
-        User = get_user_model();
+        User = get_user_model()
         user = request.user
         if user.is_authenticated:
             qs = Task.objects.filter(user=user, deleted=True)
