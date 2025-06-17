@@ -122,7 +122,7 @@ const TaskModal = ({
     const formData = new FormData();
     formData.append('file', aiFiles[0]);
     try {
-      const response = await fetch('http://backend:8000/api/mistral/', {
+      const response = await fetch('/api/mistral/', {
         method: 'POST',
         body: formData,
       });

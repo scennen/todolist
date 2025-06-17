@@ -127,20 +127,33 @@ class Project(BaseModel):
 class MistralView(APIView):
     permission_classes = [AllowAny]
     authentication_classes = []
+
+    def options(self, request, *args, **kwargs):
+        response = Response()
+        response["Access-Control-Allow-Origin"] = "*"
+        response["Access-Control-Allow-Methods"] = "POST, OPTIONS"
+        response["Access-Control-Allow-Headers"] = "Content-Type"
+        return response
+
     def post(self, request):
-        print("MistralView POST called")
+        logger.info("MistralView POST called")
         try:
             # Проверяем наличие API ключа
-            if not os.environ.get("MISTRAL_API_KEY"):
-                logger.error("MISTRAL_API_KEY не найден в переменных окружения")
-                return Response({'error': 'API ключ не настроен'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+            api_key = os.environ.get("MISTRAL_API_KEY")
+            if not api_key:
+                error_msg = "MISTRAL_API_KEY не найден в переменных окружения"
+                logger.error(error_msg)
+                return Response({'error': error_msg}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+            logger.info("MISTRAL_API_KEY найден")
 
             # Получаем system prompt из загруженного файла
             if 'file' not in request.FILES:
-                print('Файл не загружен')
-                return Response({'error': 'Файл не загружен'}, status=status.HTTP_400_BAD_REQUEST)
+                error_msg = 'Файл не загружен'
+                logger.error(error_msg)
+                return Response({'error': error_msg}, status=status.HTTP_400_BAD_REQUEST)
             
             file = request.FILES['file']
+            logger.info(f"Получен файл: {file.name}, размер: {file.size} байт")
             # Проверяем размер файла (максимум 1MB)
             if file.size > 1024 * 1024:
                 return Response({'error': 'Файл слишком большой'}, status=status.HTTP_400_BAD_REQUEST)
