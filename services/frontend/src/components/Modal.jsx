@@ -80,16 +80,14 @@ const TaskModal = ({
 
   // Ограничение года в дате до 4 цифр
   const handleDateInput = (e) => {
-    const value = e.target.value;
+    let value = e.target.value;
     // value: yyyy-mm-dd
-    const year = value.split('-')[0];
-    if (year.length > 4) {
-      // Обрезаем до 4 цифр
-      const fixed = value.replace(/^(\d{4})\d+/, '$1');
-      setDueDate(fixed);
-    } else {
-      setDueDate(value);
+    let [year, month, day] = value.split('-');
+    if (year && year.length > 4) {
+      year = year.slice(0, 4);
+      value = [year, month, day].filter(Boolean).join('-');
     }
+    setDueDate(value);
   };
 
   // Цвет фона для select по приоритету
@@ -249,6 +247,8 @@ const TaskModal = ({
                     value={dueDate}
                     onChange={handleDateInput}
                     required
+                    min={new Date().toISOString().split('T')[0]}
+                    max="2100-12-31"
                     maxLength={10}
                     style={{ fontFamily: 'Onest, sans-serif', fontWeight: 500, border: 'none', borderRadius: 8, padding: '10px 14px', background: '#eeeeee', color: '#333' }}
                     pattern="\\d{4}-\\d{2}-\\d{2}"

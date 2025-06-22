@@ -2745,3 +2745,65 @@ INFO 2025-06-22 18:52:40,795 autoreload 9972 21172 C:\project\em\todolist\servic
 INFO 2025-06-22 18:52:40,795 autoreload 9972 21172 C:\project\em\todolist\services\backend\todo\views.py changed, reloading.
 INFO 2025-06-22 18:52:41,770 autoreload 21688 21168 Watching for file changes with StatReloader
 INFO 2025-06-22 18:52:41,770 autoreload 21688 21168 Watching for file changes with StatReloader
+INFO 2025-06-22 20:55:27,333 autoreload 2508 10368 Watching for file changes with StatReloader
+INFO 2025-06-22 20:55:27,333 autoreload 2508 10368 Watching for file changes with StatReloader
+WARNING 2025-06-22 20:55:59,033 log 2508 10880 Unauthorized: /api/user/
+WARNING 2025-06-22 20:55:59,033 log 2508 10880 Unauthorized: /api/user/
+WARNING 2025-06-22 20:55:59,041 basehttp 2508 10880 "GET /api/user/ HTTP/1.1" 401 58
+WARNING 2025-06-22 20:55:59,041 basehttp 2508 10880 "GET /api/user/ HTTP/1.1" 401 58
+INFO 2025-06-22 20:55:59,110 basehttp 2508 21268 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-22 20:55:59,110 basehttp 2508 21268 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-22 20:55:59,283 basehttp 2508 16140 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-22 20:55:59,283 basehttp 2508 16140 "GET /api/priorities/ HTTP/1.1" 200 125
+WARNING 2025-06-22 20:56:00,329 log 2508 22780 Unauthorized: /api/user/
+WARNING 2025-06-22 20:56:00,329 log 2508 22780 Unauthorized: /api/user/
+WARNING 2025-06-22 20:56:00,330 basehttp 2508 22780 "GET /api/user/ HTTP/1.1" 401 58
+WARNING 2025-06-22 20:56:00,330 basehttp 2508 22780 "GET /api/user/ HTTP/1.1" 401 58
+WARNING 2025-06-22 20:57:35,514 log 2508 14908 Unauthorized: /api/login/
+WARNING 2025-06-22 20:57:35,514 log 2508 14908 Unauthorized: /api/login/
+WARNING 2025-06-22 20:57:35,515 basehttp 2508 14908 "POST /api/login/ HTTP/1.1" 401 26
+WARNING 2025-06-22 20:57:35,515 basehttp 2508 14908 "POST /api/login/ HTTP/1.1" 401 26
+WARNING 2025-06-22 20:57:41,189 log 2508 7028 Unauthorized: /api/login/
+WARNING 2025-06-22 20:57:41,189 log 2508 7028 Unauthorized: /api/login/
+WARNING 2025-06-22 20:57:41,190 basehttp 2508 7028 "POST /api/login/ HTTP/1.1" 401 26
+WARNING 2025-06-22 20:57:41,190 basehttp 2508 7028 "POST /api/login/ HTTP/1.1" 401 26
+WARNING 2025-06-22 20:58:44,837 log 2508 22452 Unauthorized: /api/login/
+WARNING 2025-06-22 20:58:44,837 log 2508 22452 Unauthorized: /api/login/
+WARNING 2025-06-22 20:58:44,838 basehttp 2508 22452 "POST /api/login/ HTTP/1.1" 401 26
+WARNING 2025-06-22 20:58:44,838 basehttp 2508 22452 "POST /api/login/ HTTP/1.1" 401 26
+WARNING 2025-06-22 20:58:46,888 log 2508 18516 Unauthorized: /api/login/
+WARNING 2025-06-22 20:58:46,888 log 2508 18516 Unauthorized: /api/login/
+WARNING 2025-06-22 20:58:46,888 basehttp 2508 18516 "POST /api/login/ HTTP/1.1" 401 26
+WARNING 2025-06-22 20:58:46,888 basehttp 2508 18516 "POST /api/login/ HTTP/1.1" 401 26
+WARNING 2025-06-22 20:59:00,809 log 2508 19212 Unauthorized: /api/user/
+WARNING 2025-06-22 20:59:00,809 log 2508 19212 Unauthorized: /api/user/
+WARNING 2025-06-22 20:59:00,812 basehttp 2508 19212 "GET /api/user/ HTTP/1.1" 401 58
+WARNING 2025-06-22 20:59:00,812 basehttp 2508 19212 "GET /api/user/ HTTP/1.1" 401 58
+INFO 2025-06-22 20:59:00,897 basehttp 2508 22864 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-22 20:59:00,897 basehttp 2508 22864 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-22 20:59:00,968 basehttp 2508 7964 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-22 20:59:00,968 basehttp 2508 7964 "GET /api/priorities/ HTTP/1.1" 200 125
+WARNING 2025-06-22 20:59:01,738 log 2508 22128 Unauthorized: /api/user/
+WARNING 2025-06-22 20:59:01,738 log 2508 22128 Unauthorized: /api/user/
+WARNING 2025-06-22 20:59:01,738 basehttp 2508 22128 "GET /api/user/ HTTP/1.1" 401 58
+WARNING 2025-06-22 20:59:01,738 basehttp 2508 22128 "GET /api/user/ HTTP/1.1" 401 58
+INFO 2025-06-22 20:59:30,642 basehttp 2508 9488 "POST /api/login/ HTTP/1.1" 200 71
+INFO 2025-06-22 20:59:30,642 basehttp 2508 9488 "POST /api/login/ HTTP/1.1" 200 71
+INFO 2025-06-22 20:59:30,836 basehttp 2508 13268 "GET /api/tasks/ HTTP/1.1" 200 2
+INFO 2025-06-22 20:59:30,836 basehttp 2508 13268 "GET /api/tasks/ HTTP/1.1" 200 2
+INFO 2025-06-22 20:59:33,841 basehttp 2508 11372 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-22 20:59:33,841 basehttp 2508 19532 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-22 20:59:33,841 basehttp 2508 11372 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-22 20:59:33,841 basehttp 2508 19532 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-22 20:59:33,925 basehttp 2508 23148 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-22 20:59:33,925 basehttp 2508 23148 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-22 20:59:34,016 basehttp 2508 10572 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-22 20:59:34,016 basehttp 2508 10572 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-22 21:02:16,079 basehttp 2508 13760 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-22 21:02:16,079 basehttp 2508 13760 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-22 21:02:16,155 basehttp 2508 18720 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-22 21:02:16,155 basehttp 2508 18720 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-22 21:02:16,228 basehttp 2508 7736 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-22 21:02:16,228 basehttp 2508 7736 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-22 21:02:16,294 basehttp 2508 12172 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-22 21:02:16,294 basehttp 2508 12172 "GET /api/statuses/ HTTP/1.1" 200 101

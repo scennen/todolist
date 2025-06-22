@@ -18,6 +18,17 @@ class UserSerializer(serializers.ModelSerializer):
         return user
 
 class TaskSerializer(serializers.ModelSerializer):
+    def validate_due_date(self, value):
+        from datetime import date
+        today = date.today()
+        # Не допускаем даты до сегодняшнего дня
+        if value < today:
+            raise serializers.ValidationError("Дата не может быть раньше сегодняшнего дня.")
+        # Не допускаем год больше 2100 или больше 4 цифр
+        if value.year > 2100 or value.year > 9999:
+            raise serializers.ValidationError("Год не может быть больше 2100 и должен быть не более 4 цифр.")
+        return value
+
     class Meta:
         model = Task
         fields = '__all__'
