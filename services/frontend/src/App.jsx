@@ -22,10 +22,28 @@ function App() {
     fetchTasksFromBackend,
   } = useLocalStorageTasks();
   
-  const [isAuthenticated, setIsAuthenticated] = useState(() => {
-    const savedAuth = localStorage.getItem('isAuthenticated');
-    return savedAuth === 'true';
-  });
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [authChecked, setAuthChecked] = useState(false);
+
+  useEffect(() => {
+    // Проверяем авторизацию через backend
+    fetch('/api/user/', { credentials: 'include' })
+      .then(r => {
+        if (r.ok) return r.json();
+        throw new Error('not auth');
+      })
+      .then(user => {
+        setIsAuthenticated(true);
+        localStorage.setItem('isAuthenticated', 'true');
+        localStorage.setItem('userData', JSON.stringify(user));
+      })
+      .catch(() => {
+        setIsAuthenticated(false);
+        localStorage.removeItem('isAuthenticated');
+        localStorage.removeItem('userData');
+      })
+      .finally(() => setAuthChecked(true));
+  }, []);
 
   // Загружаем задачи с бэкенда при монтировании компонента
   useEffect(() => {
@@ -210,6 +228,7 @@ function App() {
     setShowTrashModal(true);
   };
 
+  if (!authChecked) return null; // Показывать loader/spinner, если нужно
   if (!isAuthenticated) {
     return <LoginPage onLogin={handleLogin} />;
   }
@@ -270,7 +289,10 @@ function App() {
         )}
 
         {showProfileModal && (
-          <ProfileModal onClose={() => setShowProfileModal(false)} />
+          <ProfileModal 
+            onClose={() => setShowProfileModal(false)}
+            user={JSON.parse(localStorage.getItem('userData') || '{}')}
+          />
         )}
       </div>
     </div>

@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { Icons } from '../icons/Icons';
 
-const ProfileModal = ({ onClose }) => {  const [name, setName] = useState('Александр');
-  const [email, setEmail] = useState('alex@example.com');
+const ProfileModal = ({ onClose, user }) => {
+  const [name, setName] = useState(user?.username || '');
+  const [email, setEmail] = useState(user?.email || '');
   const [avatar, setAvatar] = useState(null);
   const fileInputRef = React.useRef(null);
 

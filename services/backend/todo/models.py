@@ -7,12 +7,18 @@ class UserManager(BaseUserManager):
         return self.get(username=username)
 
     def create_user(self, email, password=None, **extra_fields):
+        import logging
+        logger = logging.getLogger('todo')
+        logger.debug(f'create_user called with email={email}, extra_fields={extra_fields}')
         if not email:
             raise ValueError('Email address is required')
         email = self.normalize_email(email)
+        if 'username' not in extra_fields or not extra_fields['username']:
+            extra_fields['username'] = email  # username = email по умолчанию
         user = self.model(email=email, **extra_fields)
         user.set_password(password)
         user.save(using=self._db)
+        logger.debug(f'User created: {user}')
         return user
 
     def create_superuser(self, email, password=None, **extra_fields):
@@ -33,7 +39,7 @@ class User(AbstractUser):
     objects = UserManager()  
 
     def __str__(self):
-        return self.username
+        return self.username or self.email
 
 # Приоритет задачи
 class Priority(models.Model):
@@ -77,6 +83,7 @@ class Task(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
     categories = models.ManyToManyField(Category, through='TaskCategory')
     deleted = models.BooleanField(default=False)
+    completed = models.BooleanField(default=False, verbose_name="Выполнена")
 
     def __str__(self):
         return str(self.title)

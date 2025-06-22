@@ -17,7 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
-from todo.views import TaskViewSet, CategoryViewSet, PriorityViewSet, StatusViewSet
+from todo.views import TaskViewSet, CategoryViewSet, PriorityViewSet, StatusViewSet, RegisterView, CurrentUserView, LoginView
 from django.views.generic import TemplateView
 from todo.views import MistralView
 
@@ -30,6 +30,9 @@ router.register(r'statuses', StatusViewSet)
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
+    path('api/register/', RegisterView.as_view(), name='register'),
+    path('api/login/', LoginView.as_view(), name='login'),
+    path('api/user/', CurrentUserView.as_view(), name='current-user'),
     path('', TemplateView.as_view(template_name='index.html'), name='react-app'),
     path("api/mistral/", MistralView.as_view(), name="mistral"),
 ]

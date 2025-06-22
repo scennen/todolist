@@ -1,6 +1,21 @@
 from rest_framework import serializers
-from .models import Task, Category, Priority, Status
-from django.contrib.auth.models import User
+from .models import Task, Category, Priority, Status, User
+from django.contrib.auth import get_user_model
+
+class UserSerializer(serializers.ModelSerializer):
+    password = serializers.CharField(write_only=True)
+    username = serializers.CharField(required=False)
+    class Meta:
+        model = User
+        fields = ('id', 'email', 'username', 'password')
+
+    def create(self, validated_data):
+        user = User.objects.create_user(
+            email=validated_data['email'],
+            password=validated_data['password'],
+            username=validated_data.get('username', validated_data['email'])
+        )
+        return user
 
 class TaskSerializer(serializers.ModelSerializer):
     class Meta:

@@ -2,7 +2,7 @@ from django.contrib import admin
 from .models import User, Priority, Status, Category, Task, TaskCategory
 
 class TaskAdmin(admin.ModelAdmin):
-    list_display = ('title', 'user', 'due_date', 'status', 'priority', 'deleted')
+    list_display = ('title', 'user', 'due_date', 'status', 'priority', 'completed', 'deleted')
     def save_model(self, request, obj, form, change):
         if not obj.user:
             anon, _ = User.objects.get_or_create(email="anonymous")

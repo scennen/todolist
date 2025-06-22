@@ -257,8 +257,8 @@ const TaskModal = ({
                 </label>
               </div>              
               {/* Кнопки действий */}
-              <div className="modal-actions" style={{ borderTop: 'none', marginTop: 10, paddingTop: 0, gap: 10, display: 'flex', alignItems: 'center', justifyContent: 'flex-end' }}>
-                <button type="submit" className="modal-save-btn" style={{ fontFamily: 'Onest, sans-serif' }}>
+              <div className="modal-actions" style={{ borderTop: 'none', marginTop: 10, paddingTop: 0, gap: 14, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <button type="submit" className="modal-save-btn" style={{ fontFamily: 'Onest, sans-serif', order: 1 }}>
                   {task ? 'Обновить' : 'Создать'}
                 </button>
                 <button 
@@ -275,12 +275,13 @@ const TaskModal = ({
                     cursor: 'pointer',
                     fontWeight: 600,
                     boxShadow: 'none',
+                    order: 2
                   }}
                   onClick={() => setShowAIModal(true)}
                 >
                   AI
                 </button>
-                <button type="button" className="modal-cancel-btn" onClick={onClose} style={{ fontFamily: 'Onest, sans-serif' }}>Отмена</button>
+                <button type="button" className="modal-cancel-btn" onClick={onClose} style={{ fontFamily: 'Onest, sans-serif', order: 3 }}>Отмена</button>
               </div>
             </form>
           </>

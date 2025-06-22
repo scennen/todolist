@@ -122,7 +122,13 @@ const Header = ({
             }}
           >
             <div className="user-avatar">
-              {userData.name ? userData.name[0].toUpperCase() : '?'}
+              {userData.name && userData.name.length > 0
+                ? userData.name[0].toUpperCase()
+                : userData.username && userData.username.length > 0
+                  ? userData.username[0].toUpperCase()
+                  : userData.email && userData.email.length > 0
+                    ? userData.email[0].toUpperCase()
+                    : '?'}
             </div>
           </button>
           

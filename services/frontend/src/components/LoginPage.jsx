@@ -1,24 +1,54 @@
 import React, { useState } from 'react';
 import { Icons } from '../icons/Icons';
+import InfoModal from './InfoModal';
 
 const LoginPage = ({ onLogin }) => {
   const [isLogin, setIsLogin] = useState(true);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [name, setName] = useState('');
+  const [showInfo, setShowInfo] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // TODO: Добавить реальную авторизацию
     if (isLogin) {
-      onLogin({ email, password });
+      // Реальный вход через backend
+      const response = await fetch('/api/login/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        credentials: 'include',
+        body: JSON.stringify({ email, password })
+      });
+      if (response.ok) {
+        const user = await response.json();
+        onLogin(user);
+      } else {
+        alert('Ошибка входа');
+      }
     } else {
-      onLogin({ email, password, name });
+      // Регистрация через backend
+      const response = await fetch('/api/register/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        credentials: 'include',
+        body: JSON.stringify({ email, password, username: name })
+      });
+      if (response.ok) {
+        setShowInfo(true);
+      } else {
+        alert('Ошибка регистрации');
+      }
     }
   };
 
   return (
     <div className="login-page">
+      <InfoModal
+        open={showInfo}
+        onClose={() => { setShowInfo(false); setIsLogin(true); }}
+        title="Регистрация успешна!"
+        message="Теперь войдите."
+      />
       <div className="login-container">
         <div className="login-header">
           <Icons.Task className="icon" style={{ width: 32, height: 32, color: '#4f8cff' }} />
