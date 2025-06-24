@@ -27,7 +27,8 @@ const useLocalStorageTasks = () => {
         const savedTask = await response.json();
         await fetchTasksFromBackend();
       } else {
-        console.error('Ошибка при создании задачи');
+        const errorText = await response.text();
+        console.error('Ошибка при создании задачи', response.status, errorText);
       }
     } catch (e) {
       console.error('Ошибка сети при создании задачи', e);
@@ -108,8 +109,26 @@ const useLocalStorageTasks = () => {
     }
   };
 
-  const toggleComplete = (id) => {
-    setTasks(prev => prev.map(t => t.id === id ? { ...t, completed: !t.completed } : t));
+  const toggleComplete = async (id) => {
+    const task = tasks.find(t => t.id === id);
+    if (!task) return;
+    try {
+      const response = await fetch(`/api/tasks/${id}/`, {
+        method: 'PATCH',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ completed: !task.completed }),
+      });
+      if (response.ok) {
+        await fetchTasksFromBackend();
+      } else {
+        const errorText = await response.text();
+        console.error('Ошибка при обновлении статуса задачи', response.status, errorText);
+      }
+    } catch (e) {
+      console.error('Ошибка сети при обновлении статуса задачи', e);
+    }
   };
 
   // Загрузка задач с бэкенда

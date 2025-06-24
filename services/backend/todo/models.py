@@ -73,7 +73,7 @@ class Category(models.Model):
 # Задача
 class Task(models.Model):
     title = models.CharField(max_length=100)
-    description = models.TextField()
+    description = models.TextField(blank=True, null=True)
     due_date = models.DateField()
     status = models.ForeignKey(Status, on_delete=models.CASCADE)
     priority = models.ForeignKey(Priority, on_delete=models.CASCADE)
