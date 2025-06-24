@@ -20,6 +20,8 @@ from rest_framework import routers
 from todo.views import TaskViewSet, CategoryViewSet, PriorityViewSet, StatusViewSet, RegisterView, CurrentUserView, LoginView
 from django.views.generic import TemplateView
 from todo.views import MistralView
+from django.views.decorators.csrf import ensure_csrf_cookie
+from django.http import JsonResponse
 
 router = routers.DefaultRouter()
 router.register(r'tasks', TaskViewSet)
@@ -35,4 +37,5 @@ urlpatterns = [
     path('api/user/', CurrentUserView.as_view(), name='current-user'),
     path('', TemplateView.as_view(template_name='index.html'), name='react-app'),
     path("api/mistral/", MistralView.as_view(), name="mistral"),
+    path('api/csrf/', ensure_csrf_cookie(lambda request: JsonResponse({'detail': 'CSRF cookie set'}))),
 ]

@@ -1,6 +1,6 @@
 import os
 import logging
-from django.views.decorators.csrf import csrf_exempt
+from django.views.decorators.csrf import csrf_exempt, ensure_csrf_cookie
 from django.utils.decorators import method_decorator
 from rest_framework.views import APIView
 from rest_framework import viewsets, status
@@ -23,6 +23,7 @@ from datetime import datetime
 from django.contrib.auth import get_user_model
 from django.contrib.auth import authenticate, login
 from rest_framework.decorators import action
+from rest_framework.authentication import SessionAuthentication
 
 load_dotenv()
 
@@ -69,9 +70,8 @@ client = OpenAI(
     api_key=os.environ.get("MISTRAL_API_KEY"),
 )
 
-@method_decorator(csrf_exempt, name='dispatch')
 class TaskViewSet(viewsets.ModelViewSet):
-    queryset = Task.objects.all()
+    queryset = Task.objects.none()  # Для корректной работы DRF router, но реальный queryset формируется в get_queryset
     serializer_class = TaskSerializer
     permission_classes = [AllowAny]
 
@@ -312,7 +312,13 @@ class MistralView(APIView):
             return Response({"error": "Ошибка при обработке запроса", "details": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 class RegisterView(APIView):
+    authentication_classes = [SessionAuthentication]
     permission_classes = [AllowAny]
+
+    @method_decorator(ensure_csrf_cookie)
+    def dispatch(self, *args, **kwargs):
+        return super().dispatch(*args, **kwargs)
+
     def post(self, request):
         serializer = UserSerializer(data=request.data)
         if serializer.is_valid():

@@ -51,7 +51,7 @@ const TaskModal = ({
   }, []);
 
   // Обработчик сохранения
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (!title.trim()) {
       if (titleInputRef.current) titleInputRef.current.focus();
@@ -74,7 +74,7 @@ const TaskModal = ({
     if (task && task.id) {
       taskData.id = task.id;
     }
-    onSave(taskData);
+    await onSave(taskData);
     onClose();
   };
 

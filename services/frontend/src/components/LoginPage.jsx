@@ -9,13 +9,36 @@ const LoginPage = ({ onLogin }) => {
   const [name, setName] = useState('');
   const [showInfo, setShowInfo] = useState(false);
 
+  function getCookie(name) {
+    let cookieValue = null;
+    if (document.cookie && document.cookie !== '') {
+      const cookies = document.cookie.split(';');
+      for (let i = 0; i < cookies.length; i++) {
+        const cookie = cookies[i].trim();
+        if (cookie.substring(0, name.length + 1) === (name + '=')) {
+          cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+          break;
+        }
+      }
+    }
+    return cookieValue;
+  }
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+    // Получить CSRF-токен, если его нет
+    if (!getCookie('csrftoken')) {
+      await fetch('/api/csrf/', { credentials: 'include' });
+    }
+    const csrfToken = getCookie('csrftoken');
     if (isLogin) {
       // Реальный вход через backend
       const response = await fetch('/api/login/', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          'X-CSRFToken': csrfToken,
+        },
         credentials: 'include',
         body: JSON.stringify({ email, password })
       });
@@ -29,7 +52,10 @@ const LoginPage = ({ onLogin }) => {
       // Регистрация через backend
       const response = await fetch('/api/register/', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          'X-CSRFToken': csrfToken,
+        },
         credentials: 'include',
         body: JSON.stringify({ email, password, username: name })
       });

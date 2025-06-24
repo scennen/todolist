@@ -1,5 +1,20 @@
 import { useState, useEffect, useCallback } from 'react';
 
+function getCookie(name) {
+  let cookieValue = null;
+  if (document.cookie && document.cookie !== '') {
+    const cookies = document.cookie.split(';');
+    for (let i = 0; i < cookies.length; i++) {
+      const cookie = cookies[i].trim();
+      if (cookie.substring(0, name.length + 1) === (name + '=')) {
+        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+        break;
+      }
+    }
+  }
+  return cookieValue;
+}
+
 const useLocalStorageTasks = () => {
   const [tasks, setTasks] = useState(() => {
     const userData = JSON.parse(localStorage.getItem('userData') || '{}');
@@ -20,7 +35,9 @@ const useLocalStorageTasks = () => {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+          'X-CSRFToken': getCookie('csrftoken'),
         },
+        credentials: 'include',
         body: JSON.stringify(newTask),
       });
       if (response.ok) {
@@ -41,7 +58,9 @@ const useLocalStorageTasks = () => {
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',
+          'X-CSRFToken': getCookie('csrftoken'),
         },
+        credentials: 'include',
         body: JSON.stringify(updated),
       });
       if (response.ok) {
@@ -58,6 +77,10 @@ const useLocalStorageTasks = () => {
     try {
       const response = await fetch(`/api/tasks/${id}/`, {
         method: 'DELETE',
+        headers: {
+          'X-CSRFToken': getCookie('csrftoken'),
+        },
+        credentials: 'include',
       });
       if (response.ok || response.status === 204) {
         await fetchTasksFromBackend();
@@ -75,7 +98,9 @@ const useLocalStorageTasks = () => {
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',
+          'X-CSRFToken': getCookie('csrftoken'),
         },
+        credentials: 'include',
         body: JSON.stringify({ deleted: false }),
       });
       if (response.ok) {
@@ -95,6 +120,10 @@ const useLocalStorageTasks = () => {
     try {
       const response = await fetch(`/api/tasks/${id}/`, {
         method: 'DELETE',
+        headers: {
+          'X-CSRFToken': getCookie('csrftoken'),
+        },
+        credentials: 'include',
       });
       if (response.ok || response.status === 204) {
         if (afterDelete) afterDelete();
@@ -117,7 +146,9 @@ const useLocalStorageTasks = () => {
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',
+          'X-CSRFToken': getCookie('csrftoken'),
         },
+        credentials: 'include',
         body: JSON.stringify({ completed: !task.completed }),
       });
       if (response.ok) {
@@ -134,7 +165,7 @@ const useLocalStorageTasks = () => {
   // Загрузка задач с бэкенда
   const fetchTasksFromBackend = useCallback(async () => {
     try {
-      const response = await fetch('/api/tasks/');
+      const response = await fetch('/api/tasks/', { credentials: 'include' });
       if (response.ok) {
         const data = await response.json();
         // Маппинг due_date -> dueDate
