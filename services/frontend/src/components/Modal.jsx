@@ -28,7 +28,15 @@ const TaskModal = ({
     if (task) {
       setTitle(task.title);
       setDescription(task.description || '');
-      setPriority(task.priority || 'medium'); // по умолчанию средний
+      // Приводим priority к строке ("high"/"medium"/"low")
+      if (task.priority && Array.isArray(priorities) && priorities.length > 0) {
+        const found = priorities.find(p => p.id === task.priority || p.name === task.priority);
+        setPriority(found ? found.name.toLowerCase() : 'medium');
+      } else if (typeof task.priority === 'string') {
+        setPriority(task.priority.toLowerCase());
+      } else {
+        setPriority('medium');
+      }
       setDueDate(task.dueDate || '');
     } else {
       setTitle('');
@@ -37,7 +45,7 @@ const TaskModal = ({
       setDueDate('');
     }
     setEditingTitle(false);
-  }, [task]);
+  }, [task, priorities]);
 
   useEffect(() => {
     if (editingTitle && titleInputRef.current) {
@@ -113,6 +121,21 @@ const TaskModal = ({
   };
 
   // AI file upload handler
+  const getCookie = (name) => {
+    let cookieValue = null;
+    if (document.cookie && document.cookie !== '') {
+      const cookies = document.cookie.split(';');
+      for (let i = 0; i < cookies.length; i++) {
+        const cookie = cookies[i].trim();
+        if (cookie.substring(0, name.length + 1) === (name + '=')) {
+          cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+          break;
+        }
+      }
+    }
+    return cookieValue;
+  };
+
   const handleAIUpload = async () => {
     if (!aiFiles.length) return;
     setAILoading(true);
@@ -123,6 +146,10 @@ const TaskModal = ({
       const response = await fetch('/api/mistral/', {
         method: 'POST',
         body: formData,
+        credentials: 'include',
+        headers: {
+          'X-CSRFToken': getCookie('csrftoken'),
+        },
       });
       if (!response.ok) {
         const err = await response.json();

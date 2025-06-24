@@ -1,0 +1,677 @@
+INFO 2025-06-25 01:19:31,157 autoreload 10860 13644 Watching for file changes with StatReloader
+INFO 2025-06-25 01:19:31,157 autoreload 10860 13644 Watching for file changes with StatReloader
+INFO 2025-06-25 01:19:41,756 basehttp 10860 752 "GET /api/user/ HTTP/1.1" 200 53
+INFO 2025-06-25 01:19:41,756 basehttp 10860 752 "GET /api/user/ HTTP/1.1" 200 53
+INFO 2025-06-25 01:19:41,757 basehttp 10860 2372 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:19:41,757 basehttp 10860 2372 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:19:41,811 basehttp 10860 2568 "GET /api/user/ HTTP/1.1" 200 53
+INFO 2025-06-25 01:19:41,811 basehttp 10860 2568 "GET /api/user/ HTTP/1.1" 200 53
+INFO 2025-06-25 01:19:41,812 basehttp 10860 7716 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:19:41,812 basehttp 10860 7716 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:19:41,915 basehttp 10860 1656 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:19:41,915 basehttp 10860 1656 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:19:41,921 basehttp 10860 8040 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:19:41,921 basehttp 10860 8040 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:19:41,945 basehttp 10860 10444 "GET /api/tasks/ HTTP/1.1" 200 820
+INFO 2025-06-25 01:19:41,945 basehttp 10860 10444 "GET /api/tasks/ HTTP/1.1" 200 820
+INFO 2025-06-25 01:19:41,967 basehttp 10860 14464 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:19:41,967 basehttp 10860 14464 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:19:41,973 basehttp 10860 6596 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:19:41,973 basehttp 10860 6596 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:19:42,013 basehttp 10860 11048 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:19:42,013 basehttp 10860 11048 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:19:42,020 basehttp 10860 3832 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:19:42,020 basehttp 10860 3832 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:19:42,056 basehttp 10860 4152 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:19:42,056 basehttp 10860 4152 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:19:42,064 basehttp 10860 1924 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:19:42,064 basehttp 10860 1924 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:19:48,868 basehttp 10860 4040 "GET /admin/todo/task/ HTTP/1.1" 200 15556
+INFO 2025-06-25 01:19:48,868 basehttp 10860 4040 "GET /admin/todo/task/ HTTP/1.1" 200 15556
+INFO 2025-06-25 01:19:48,892 basehttp 10860 4040 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,892 basehttp 10860 4040 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,896 basehttp 10860 5384 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,896 basehttp 10860 5384 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,902 basehttp 10860 18792 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,902 basehttp 10860 5384 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,905 basehttp 10860 4040 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,902 basehttp 10860 18792 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,907 basehttp 10860 12728 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,902 basehttp 10860 5384 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,909 basehttp 10860 14256 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,909 basehttp 10860 14256 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,915 basehttp 10860 18792 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,907 basehttp 10860 12728 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,918 basehttp 10860 5384 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,918 basehttp 10860 5384 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,922 basehttp 10860 14256 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,915 basehttp 10860 18792 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,905 basehttp 10860 4040 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,929 basehttp 10860 12728 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,932 basehttp 10860 5384 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,932 basehttp 10860 5384 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,936 basehttp 10860 18792 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,929 basehttp 10860 12728 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,922 basehttp 10860 14256 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,938 basehttp 10860 4040 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,936 basehttp 10860 18792 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,938 basehttp 10860 4040 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,950 basehttp 10860 14256 "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,950 basehttp 10860 14256 "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,958 basehttp 10860 11700 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:19:48,958 basehttp 10860 11700 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:19:48,959 basehttp 10860 14256 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,959 basehttp 10860 14256 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,964 basehttp 10860 14256 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,964 basehttp 10860 14256 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,984 basehttp 10860 14256 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:48,984 basehttp 10860 14256 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:49,010 basehttp 10860 14256 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:49,010 basehttp 10860 14256 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:49,011 basehttp 10860 11700 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:49,011 basehttp 10860 11700 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:54,472 basehttp 10860 11700 "POST /admin/todo/task/ HTTP/1.1" 200 10735
+INFO 2025-06-25 01:19:54,472 basehttp 10860 11700 "POST /admin/todo/task/ HTTP/1.1" 200 10735
+INFO 2025-06-25 01:19:54,494 basehttp 10860 11700 "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:54,494 basehttp 10860 11700 "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:19:55,656 basehttp 10860 11700 "POST /admin/todo/task/ HTTP/1.1" 302 0
+INFO 2025-06-25 01:19:55,656 basehttp 10860 11700 "POST /admin/todo/task/ HTTP/1.1" 302 0
+INFO 2025-06-25 01:19:55,729 basehttp 10860 11700 "GET /admin/todo/task/ HTTP/1.1" 200 10019
+INFO 2025-06-25 01:19:55,729 basehttp 10860 11700 "GET /admin/todo/task/ HTTP/1.1" 200 10019
+INFO 2025-06-25 01:19:55,897 basehttp 10860 11700 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:19:55,897 basehttp 10860 11700 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:19:57,322 basehttp 10860 11700 "GET /admin/todo/user/ HTTP/1.1" 200 12951
+INFO 2025-06-25 01:19:57,322 basehttp 10860 11700 "GET /admin/todo/user/ HTTP/1.1" 200 12951
+INFO 2025-06-25 01:19:57,382 basehttp 10860 11700 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:19:57,382 basehttp 10860 11700 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:20:03,481 basehttp 10860 11700 "POST /admin/todo/user/ HTTP/1.1" 200 12134
+INFO 2025-06-25 01:20:03,481 basehttp 10860 11700 "POST /admin/todo/user/ HTTP/1.1" 200 12134
+INFO 2025-06-25 01:20:06,244 basehttp 10860 11700 "POST /admin/todo/user/ HTTP/1.1" 302 0
+INFO 2025-06-25 01:20:06,244 basehttp 10860 11700 "POST /admin/todo/user/ HTTP/1.1" 302 0
+INFO 2025-06-25 01:20:06,294 basehttp 10860 11700 "GET /admin/todo/user/ HTTP/1.1" 302 0
+INFO 2025-06-25 01:20:06,294 basehttp 10860 11700 "GET /admin/todo/user/ HTTP/1.1" 302 0
+INFO 2025-06-25 01:20:06,382 basehttp 10860 11700 "GET /admin/login/?next=/admin/todo/user/ HTTP/1.1" 200 4339
+INFO 2025-06-25 01:20:06,382 basehttp 10860 11700 "GET /admin/login/?next=/admin/todo/user/ HTTP/1.1" 200 4339
+INFO 2025-06-25 01:20:06,401 basehttp 10860 11700 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:20:06,401 basehttp 10860 11700 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:20:14,652 basehttp 10860 11700 "POST /admin/login/?next=/admin/todo/user/ HTTP/1.1" 200 4372
+INFO 2025-06-25 01:20:14,652 basehttp 10860 11700 "POST /admin/login/?next=/admin/todo/user/ HTTP/1.1" 200 4372
+INFO 2025-06-25 01:20:20,568 basehttp 10860 11700 "POST /admin/login/?next=/admin/todo/user/ HTTP/1.1" 200 4372
+INFO 2025-06-25 01:20:20,568 basehttp 10860 11700 "POST /admin/login/?next=/admin/todo/user/ HTTP/1.1" 200 4372
+INFO 2025-06-25 01:20:28,550 basehttp 10860 11700 "POST /admin/login/?next=/admin/todo/user/ HTTP/1.1" 200 4372
+INFO 2025-06-25 01:20:28,550 basehttp 10860 11700 "POST /admin/login/?next=/admin/todo/user/ HTTP/1.1" 200 4372
+INFO 2025-06-25 01:21:28,810 basehttp 10860 11700 "POST /admin/login/?next=/admin/todo/user/ HTTP/1.1" 200 4372
+INFO 2025-06-25 01:21:28,810 basehttp 10860 11700 "POST /admin/login/?next=/admin/todo/user/ HTTP/1.1" 200 4372
+INFO 2025-06-25 01:21:33,663 basehttp 10860 11700 "POST /admin/login/?next=/admin/todo/user/ HTTP/1.1" 200 4372
+INFO 2025-06-25 01:21:33,663 basehttp 10860 11700 "POST /admin/login/?next=/admin/todo/user/ HTTP/1.1" 200 4372
+DEBUG 2025-06-25 01:22:51,061 models 10600 18512 create_user called with email=egor.kostousov535@gmail.com, extra_fields={'username': 'admin', 'is_staff': True, 'is_superuser': True}
+DEBUG 2025-06-25 01:22:51,061 models 10600 18512 create_user called with email=egor.kostousov535@gmail.com, extra_fields={'username': 'admin', 'is_staff': True, 'is_superuser': True}
+DEBUG 2025-06-25 01:22:51,404 models 10600 18512 User created: admin
+DEBUG 2025-06-25 01:22:51,404 models 10600 18512 User created: admin
+INFO 2025-06-25 01:23:13,568 autoreload 2516 8444 Watching for file changes with StatReloader
+INFO 2025-06-25 01:23:13,568 autoreload 2516 8444 Watching for file changes with StatReloader
+INFO 2025-06-25 01:23:21,937 basehttp 2516 6856 "POST /admin/login/?next=/admin/todo/user/ HTTP/1.1" 302 0
+INFO 2025-06-25 01:23:21,937 basehttp 2516 6856 "POST /admin/login/?next=/admin/todo/user/ HTTP/1.1" 302 0
+INFO 2025-06-25 01:23:22,194 basehttp 2516 6856 "GET /admin/todo/user/ HTTP/1.1" 200 11149
+INFO 2025-06-25 01:23:22,194 basehttp 2516 6856 "GET /admin/todo/user/ HTTP/1.1" 200 11149
+INFO 2025-06-25 01:23:22,274 basehttp 2516 6856 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:23:22,274 basehttp 2516 6856 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:23:25,613 basehttp 2516 6856 "GET /admin/todo/task/ HTTP/1.1" 200 9884
+INFO 2025-06-25 01:23:25,613 basehttp 2516 6856 "GET /admin/todo/task/ HTTP/1.1" 200 9884
+INFO 2025-06-25 01:23:25,686 basehttp 2516 6856 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:23:25,686 basehttp 2516 6856 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:23:27,074 basehttp 2516 6856 "GET /admin/todo/user/ HTTP/1.1" 200 11149
+INFO 2025-06-25 01:23:27,074 basehttp 2516 6856 "GET /admin/todo/user/ HTTP/1.1" 200 11149
+INFO 2025-06-25 01:23:27,143 basehttp 2516 6856 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:23:27,143 basehttp 2516 6856 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2025-06-25 01:23:32,368 log 2516 18996 Not Found: /api/tasks/21/
+WARNING 2025-06-25 01:23:32,368 log 2516 18996 Not Found: /api/tasks/21/
+WARNING 2025-06-25 01:23:32,371 basehttp 2516 18996 "DELETE /api/tasks/21/ HTTP/1.1" 404 45
+WARNING 2025-06-25 01:23:32,371 basehttp 2516 18996 "DELETE /api/tasks/21/ HTTP/1.1" 404 45
+INFO 2025-06-25 01:23:36,519 basehttp 2516 6856 "GET /admin/todo/user/ HTTP/1.1" 200 11415
+INFO 2025-06-25 01:23:36,519 basehttp 2516 6856 "GET /admin/todo/user/ HTTP/1.1" 200 11415
+INFO 2025-06-25 01:23:36,585 basehttp 2516 6856 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:23:36,585 basehttp 2516 6856 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:24:01,200 basehttp 2516 16860 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:24:01,200 basehttp 2516 16860 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:24:01,254 basehttp 2516 1728 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:24:01,254 basehttp 2516 1728 "GET /api/priorities/ HTTP/1.1" 200 125
+WARNING 2025-06-25 01:24:01,286 log 2516 6648 Forbidden: /api/user/
+WARNING 2025-06-25 01:24:01,286 log 2516 6648 Forbidden: /api/user/
+WARNING 2025-06-25 01:24:01,286 basehttp 2516 6648 "GET /api/user/ HTTP/1.1" 403 58
+WARNING 2025-06-25 01:24:01,286 basehttp 2516 6648 "GET /api/user/ HTTP/1.1" 403 58
+WARNING 2025-06-25 01:24:01,334 log 2516 9240 Forbidden: /api/user/
+WARNING 2025-06-25 01:24:01,334 log 2516 9240 Forbidden: /api/user/
+WARNING 2025-06-25 01:24:01,335 basehttp 2516 9240 "GET /api/user/ HTTP/1.1" 403 58
+WARNING 2025-06-25 01:24:01,335 basehttp 2516 9240 "GET /api/user/ HTTP/1.1" 403 58
+INFO 2025-06-25 01:24:10,780 basehttp 2516 6856 "POST /admin/todo/user/ HTTP/1.1" 200 10013
+INFO 2025-06-25 01:24:10,780 basehttp 2516 6856 "POST /admin/todo/user/ HTTP/1.1" 200 10013
+INFO 2025-06-25 01:24:11,618 basehttp 2516 6856 "POST /admin/todo/user/ HTTP/1.1" 302 0
+INFO 2025-06-25 01:24:11,618 basehttp 2516 6856 "POST /admin/todo/user/ HTTP/1.1" 302 0
+INFO 2025-06-25 01:24:11,683 basehttp 2516 6856 "GET /admin/todo/user/ HTTP/1.1" 200 11283
+INFO 2025-06-25 01:24:11,683 basehttp 2516 6856 "GET /admin/todo/user/ HTTP/1.1" 200 11283
+INFO 2025-06-25 01:24:11,746 basehttp 2516 6856 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:24:11,746 basehttp 2516 6856 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+DEBUG 2025-06-25 01:24:56,776 models 2516 15172 create_user called with email=user1@gmail.com, extra_fields={'username': 'USER1'}
+DEBUG 2025-06-25 01:24:56,776 models 2516 15172 create_user called with email=user1@gmail.com, extra_fields={'username': 'USER1'}
+DEBUG 2025-06-25 01:24:57,705 models 2516 15172 User created: USER1
+DEBUG 2025-06-25 01:24:57,705 models 2516 15172 User created: USER1
+INFO 2025-06-25 01:24:57,706 basehttp 2516 15172 "POST /api/register/ HTTP/1.1" 201 35
+INFO 2025-06-25 01:24:57,706 basehttp 2516 15172 "POST /api/register/ HTTP/1.1" 201 35
+INFO 2025-06-25 01:25:01,773 basehttp 2516 6856 "GET /admin/todo/user/ HTTP/1.1" 200 11407
+INFO 2025-06-25 01:25:01,773 basehttp 2516 6856 "GET /admin/todo/user/ HTTP/1.1" 200 11407
+INFO 2025-06-25 01:25:01,839 basehttp 2516 6856 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:25:01,839 basehttp 2516 6856 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:25:05,737 basehttp 2516 6856 "GET /admin/todo/user/11/change/ HTTP/1.1" 200 24757
+INFO 2025-06-25 01:25:05,737 basehttp 2516 6856 "GET /admin/todo/user/11/change/ HTTP/1.1" 200 24757
+INFO 2025-06-25 01:25:05,764 basehttp 2516 6856 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:25:05,764 basehttp 2516 6856 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:25:05,768 basehttp 2516 1924 "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:25:05,770 basehttp 2516 18680 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:25:05,768 basehttp 2516 1924 "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:25:05,770 basehttp 2516 18680 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:25:05,774 basehttp 2516 4708 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:25:05,774 basehttp 2516 4708 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:25:05,777 basehttp 2516 17808 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:25:05,777 basehttp 2516 17808 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:25:05,787 basehttp 2516 17808 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:25:05,787 basehttp 2516 17808 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:25:05,818 basehttp 2516 6856 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:25:05,818 basehttp 2516 6856 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:25:05,870 basehttp 2516 17808 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+INFO 2025-06-25 01:25:05,871 basehttp 2516 6856 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO 2025-06-25 01:25:05,871 basehttp 2516 6856 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO 2025-06-25 01:25:05,870 basehttp 2516 17808 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+INFO 2025-06-25 01:25:09,057 basehttp 2516 6856 "GET /admin/todo/user/ HTTP/1.1" 200 11407
+INFO 2025-06-25 01:25:09,057 basehttp 2516 6856 "GET /admin/todo/user/ HTTP/1.1" 200 11407
+INFO 2025-06-25 01:25:13,018 basehttp 2516 7552 "POST /api/login/ HTTP/1.1" 200 54
+INFO 2025-06-25 01:25:13,018 basehttp 2516 7552 "POST /api/login/ HTTP/1.1" 200 54
+INFO 2025-06-25 01:25:13,096 basehttp 2516 13192 "GET /api/tasks/ HTTP/1.1" 200 2
+INFO 2025-06-25 01:25:13,096 basehttp 2516 13192 "GET /api/tasks/ HTTP/1.1" 200 2
+INFO 2025-06-25 01:25:16,227 basehttp 2516 19204 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:25:16,227 basehttp 2516 19204 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:25:16,230 basehttp 2516 2576 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:25:16,230 basehttp 2516 2576 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:25:16,305 basehttp 2516 9056 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:25:16,305 basehttp 2516 9056 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:25:16,308 basehttp 2516 18684 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:25:16,308 basehttp 2516 18684 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:25:35,774 views 2516 9168 POST /api/tasks/ - data: {'title': 'Полить цветы', 'description': 'не срочно', 'priority': 3, 'status': 1, 'due_date': '2025-06-26', 'project': 'Сегодня'}
+INFO 2025-06-25 01:25:35,774 views 2516 9168 POST /api/tasks/ - data: {'title': 'Полить цветы', 'description': 'не срочно', 'priority': 3, 'status': 1, 'due_date': '2025-06-26', 'project': 'Сегодня'}
+INFO 2025-06-25 01:25:35,788 views 2516 9168 Task created: Полить цветы
+INFO 2025-06-25 01:25:35,788 views 2516 9168 Task created: Полить цветы
+INFO 2025-06-25 01:25:35,797 basehttp 2516 9168 "POST /api/tasks/ HTTP/1.1" 201 298
+INFO 2025-06-25 01:25:35,797 basehttp 2516 9168 "POST /api/tasks/ HTTP/1.1" 201 298
+INFO 2025-06-25 01:25:35,862 basehttp 2516 18360 "GET /api/tasks/ HTTP/1.1" 200 300
+INFO 2025-06-25 01:25:35,862 basehttp 2516 18360 "GET /api/tasks/ HTTP/1.1" 200 300
+INFO 2025-06-25 01:25:35,937 basehttp 2516 7656 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:25:35,939 basehttp 2516 8012 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:25:35,937 basehttp 2516 7656 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:25:35,939 basehttp 2516 8012 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:25:36,004 basehttp 2516 13604 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:25:36,004 basehttp 2516 13604 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:25:36,008 basehttp 2516 4988 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:25:36,008 basehttp 2516 4988 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:25:42,195 basehttp 2516 6856 "GET /admin/todo/task/ HTTP/1.1" 200 12396
+INFO 2025-06-25 01:25:42,195 basehttp 2516 6856 "GET /admin/todo/task/ HTTP/1.1" 200 12396
+INFO 2025-06-25 01:25:42,276 basehttp 2516 6856 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:25:42,276 basehttp 2516 6856 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:25:47,981 basehttp 2516 11932 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:25:47,981 basehttp 2516 11932 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:25:47,984 basehttp 2516 13308 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:25:47,984 basehttp 2516 13308 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:25:48,060 basehttp 2516 8668 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:25:48,060 basehttp 2516 8668 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:25:48,068 basehttp 2516 11188 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:25:48,068 basehttp 2516 11188 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:25:51,564 basehttp 2516 16832 "PATCH /api/tasks/23/ HTTP/1.1" 200 298
+INFO 2025-06-25 01:25:51,564 basehttp 2516 16832 "PATCH /api/tasks/23/ HTTP/1.1" 200 298
+INFO 2025-06-25 01:25:51,735 basehttp 2516 9160 "GET /api/tasks/ HTTP/1.1" 200 300
+INFO 2025-06-25 01:25:51,735 basehttp 2516 9160 "GET /api/tasks/ HTTP/1.1" 200 300
+INFO 2025-06-25 01:25:51,812 basehttp 2516 368 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:25:51,813 basehttp 2516 10944 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:25:51,812 basehttp 2516 368 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:25:51,813 basehttp 2516 10944 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:25:59,288 basehttp 2516 14240 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:25:59,288 basehttp 2516 14240 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:25:59,291 basehttp 2516 11428 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:25:59,291 basehttp 2516 11428 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:25:59,355 basehttp 2516 1296 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:25:59,355 basehttp 2516 1296 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:25:59,357 basehttp 2516 7404 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:25:59,357 basehttp 2516 7404 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:27:19,055 basehttp 2516 13992 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:27:19,055 basehttp 2516 13992 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:27:19,056 basehttp 2516 11692 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:27:19,056 basehttp 2516 11692 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:27:19,117 basehttp 2516 12292 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:27:19,117 basehttp 2516 12292 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:27:19,231 basehttp 2516 9724 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:27:19,231 basehttp 2516 9724 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:27:23,586 views 2516 1864 MistralView POST called
+INFO 2025-06-25 01:27:23,586 views 2516 1864 MistralView POST called
+INFO 2025-06-25 01:27:23,587 views 2516 1864 MISTRAL_API_KEY найден
+INFO 2025-06-25 01:27:23,587 views 2516 1864 MISTRAL_API_KEY найден
+INFO 2025-06-25 01:27:23,589 views 2516 1864 Получен файл: Текстовый документ.txt, размер: 90 байт
+INFO 2025-06-25 01:27:23,589 views 2516 1864 Получен файл: Текстовый документ.txt, размер: 90 байт
+INFO 2025-06-25 01:27:25,026 _client 2516 1864 HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-06-25 01:27:25,094 basehttp 2516 1864 "POST /api/mistral/ HTTP/1.1" 201 356
+INFO 2025-06-25 01:27:25,094 basehttp 2516 1864 "POST /api/mistral/ HTTP/1.1" 201 356
+INFO 2025-06-25 01:27:25,152 basehttp 2516 8996 "GET /api/tasks/ HTTP/1.1" 200 300
+INFO 2025-06-25 01:27:25,152 basehttp 2516 8996 "GET /api/tasks/ HTTP/1.1" 200 300
+INFO 2025-06-25 01:27:32,183 basehttp 2516 14396 "DELETE /api/tasks/23/ HTTP/1.1" 204 0
+INFO 2025-06-25 01:27:32,183 basehttp 2516 14396 "DELETE /api/tasks/23/ HTTP/1.1" 204 0
+INFO 2025-06-25 01:27:32,247 basehttp 2516 15864 "GET /api/tasks/ HTTP/1.1" 200 2
+INFO 2025-06-25 01:27:32,247 basehttp 2516 15864 "GET /api/tasks/ HTTP/1.1" 200 2
+INFO 2025-06-25 01:27:33,210 basehttp 2516 9816 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:27:33,212 basehttp 2516 18160 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:27:33,210 basehttp 2516 9816 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:27:33,212 basehttp 2516 18160 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:27:33,293 basehttp 2516 12380 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:27:33,293 basehttp 2516 12380 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:27:33,298 basehttp 2516 5180 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:27:33,298 basehttp 2516 5180 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:27:38,872 views 2516 9600 MistralView POST called
+INFO 2025-06-25 01:27:38,872 views 2516 9600 MistralView POST called
+INFO 2025-06-25 01:27:38,873 views 2516 9600 MISTRAL_API_KEY найден
+INFO 2025-06-25 01:27:38,873 views 2516 9600 MISTRAL_API_KEY найден
+INFO 2025-06-25 01:27:38,875 views 2516 9600 Получен файл: Текстовый документ.txt, размер: 90 байт
+INFO 2025-06-25 01:27:38,875 views 2516 9600 Получен файл: Текстовый документ.txt, размер: 90 байт
+INFO 2025-06-25 01:27:39,932 _client 2516 9600 HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-06-25 01:27:40,002 basehttp 2516 9600 "POST /api/mistral/ HTTP/1.1" 201 356
+INFO 2025-06-25 01:27:40,002 basehttp 2516 9600 "POST /api/mistral/ HTTP/1.1" 201 356
+INFO 2025-06-25 01:27:40,059 basehttp 2516 1336 "GET /api/tasks/ HTTP/1.1" 200 2
+INFO 2025-06-25 01:27:40,059 basehttp 2516 1336 "GET /api/tasks/ HTTP/1.1" 200 2
+INFO 2025-06-25 01:28:18,347 basehttp 2516 18308 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:28:18,347 basehttp 2516 18308 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:28:18,359 basehttp 2516 18312 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:28:18,359 basehttp 2516 18312 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:28:18,412 basehttp 2516 11628 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:28:18,412 basehttp 2516 11628 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:28:18,506 basehttp 2516 8464 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:28:18,506 basehttp 2516 8464 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:28:32,689 views 2516 11852 MistralView POST called
+INFO 2025-06-25 01:28:32,689 views 2516 11852 MistralView POST called
+INFO 2025-06-25 01:28:32,690 views 2516 11852 MISTRAL_API_KEY найден
+INFO 2025-06-25 01:28:32,690 views 2516 11852 MISTRAL_API_KEY найден
+INFO 2025-06-25 01:28:32,691 views 2516 11852 Получен файл: Текстовый документ.txt, размер: 90 байт
+INFO 2025-06-25 01:28:32,691 views 2516 11852 Получен файл: Текстовый документ.txt, размер: 90 байт
+INFO 2025-06-25 01:28:34,249 _client 2516 11852 HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-06-25 01:28:34,321 basehttp 2516 11852 "POST /api/mistral/ HTTP/1.1" 201 356
+INFO 2025-06-25 01:28:34,321 basehttp 2516 11852 "POST /api/mistral/ HTTP/1.1" 201 356
+INFO 2025-06-25 01:28:34,380 basehttp 2516 13932 "GET /api/tasks/ HTTP/1.1" 200 2
+INFO 2025-06-25 01:28:34,380 basehttp 2516 13932 "GET /api/tasks/ HTTP/1.1" 200 2
+INFO 2025-06-25 01:32:21,947 basehttp 2516 13096 "GET /api/user/ HTTP/1.1" 200 54
+INFO 2025-06-25 01:32:21,948 basehttp 2516 5760 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:32:21,947 basehttp 2516 13096 "GET /api/user/ HTTP/1.1" 200 54
+INFO 2025-06-25 01:32:21,948 basehttp 2516 5760 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:32:22,027 basehttp 2516 8460 "GET /api/user/ HTTP/1.1" 200 54
+INFO 2025-06-25 01:32:22,027 basehttp 2516 8460 "GET /api/user/ HTTP/1.1" 200 54
+INFO 2025-06-25 01:32:22,029 basehttp 2516 7596 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:32:22,029 basehttp 2516 7596 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:32:22,093 basehttp 2516 18592 "GET /api/tasks/ HTTP/1.1" 200 2
+INFO 2025-06-25 01:32:22,093 basehttp 2516 18592 "GET /api/tasks/ HTTP/1.1" 200 2
+INFO 2025-06-25 01:32:32,691 basehttp 2516 15000 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:32:32,691 basehttp 2516 15000 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:32:32,694 basehttp 2516 12008 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:32:32,694 basehttp 2516 12008 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:32:32,756 basehttp 2516 16824 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:32:32,756 basehttp 2516 16824 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:32:32,758 basehttp 2516 2536 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:32:32,758 basehttp 2516 2536 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:32:43,603 views 2516 17840 MistralView POST called
+INFO 2025-06-25 01:32:43,603 views 2516 17840 MistralView POST called
+INFO 2025-06-25 01:32:43,605 views 2516 17840 MISTRAL_API_KEY найден
+INFO 2025-06-25 01:32:43,605 views 2516 17840 MISTRAL_API_KEY найден
+INFO 2025-06-25 01:32:43,606 views 2516 17840 Получен файл: Текстовый документ.txt, размер: 90 байт
+INFO 2025-06-25 01:32:43,606 views 2516 17840 Получен файл: Текстовый документ.txt, размер: 90 байт
+INFO 2025-06-25 01:32:45,097 _client 2516 17840 HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-06-25 01:32:45,174 basehttp 2516 17840 "POST /api/mistral/ HTTP/1.1" 201 356
+INFO 2025-06-25 01:32:45,174 basehttp 2516 17840 "POST /api/mistral/ HTTP/1.1" 201 356
+INFO 2025-06-25 01:32:45,239 basehttp 2516 9892 "GET /api/tasks/ HTTP/1.1" 200 2
+INFO 2025-06-25 01:32:45,239 basehttp 2516 9892 "GET /api/tasks/ HTTP/1.1" 200 2
+INFO 2025-06-25 01:33:41,202 basehttp 2516 16172 "GET /admin/todo/user/ HTTP/1.1" 200 11672
+INFO 2025-06-25 01:33:41,202 basehttp 2516 16172 "GET /admin/todo/user/ HTTP/1.1" 200 11672
+INFO 2025-06-25 01:33:41,230 basehttp 2516 18376 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,230 basehttp 2516 16172 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,230 basehttp 2516 18376 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,230 basehttp 2516 16172 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,235 basehttp 2516 1380 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,235 basehttp 2516 4636 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,235 basehttp 2516 1380 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,235 basehttp 2516 4636 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,236 basehttp 2516 4984 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,237 basehttp 2516 18952 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,237 basehttp 2516 18376 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,236 basehttp 2516 4984 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,237 basehttp 2516 18952 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,237 basehttp 2516 18376 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,242 basehttp 2516 4636 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,243 basehttp 2516 1380 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,242 basehttp 2516 4636 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,243 basehttp 2516 1380 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,244 basehttp 2516 4984 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,245 basehttp 2516 18952 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,246 basehttp 2516 18376 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,244 basehttp 2516 4984 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,245 basehttp 2516 18952 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,247 basehttp 2516 4636 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,246 basehttp 2516 18376 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,248 basehttp 2516 1380 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,247 basehttp 2516 4636 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,248 basehttp 2516 1380 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,255 basehttp 2516 1380 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,255 basehttp 2516 1380 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,259 basehttp 2516 1380 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,259 basehttp 2516 1380 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,280 basehttp 2516 16172 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:33:41,280 basehttp 2516 16172 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:33:41,301 basehttp 2516 1380 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,301 basehttp 2516 16172 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,301 basehttp 2516 1380 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:41,301 basehttp 2516 16172 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:42,113 basehttp 2516 16172 "GET /admin/todo/task/ HTTP/1.1" 200 15187
+INFO 2025-06-25 01:33:42,113 basehttp 2516 16172 "GET /admin/todo/task/ HTTP/1.1" 200 15187
+INFO 2025-06-25 01:33:42,137 basehttp 2516 1380 "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:42,137 basehttp 2516 1380 "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:42,140 basehttp 2516 1380 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:42,140 basehttp 2516 1380 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2025-06-25 01:33:42,179 basehttp 2516 16172 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:33:42,179 basehttp 2516 16172 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:36:04,637 autoreload 2516 8444 C:\todolist\services\backend\todo\views.py changed, reloading.
+INFO 2025-06-25 01:36:04,637 autoreload 2516 8444 C:\todolist\services\backend\todo\views.py changed, reloading.
+INFO 2025-06-25 01:36:05,856 autoreload 19176 8712 Watching for file changes with StatReloader
+INFO 2025-06-25 01:36:05,856 autoreload 19176 8712 Watching for file changes with StatReloader
+INFO 2025-06-25 01:37:12,752 basehttp 19176 14748 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:37:12,752 basehttp 19176 14748 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:37:12,753 basehttp 19176 9892 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:37:12,753 basehttp 19176 9892 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:37:12,807 basehttp 19176 8420 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:37:12,807 basehttp 19176 8420 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:37:12,917 basehttp 19176 15044 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:37:12,917 basehttp 19176 15044 "GET /api/statuses/ HTTP/1.1" 200 101
+WARNING 2025-06-25 01:37:22,890 log 19176 11252 Forbidden: /api/mistral/
+WARNING 2025-06-25 01:37:22,890 log 19176 11252 Forbidden: /api/mistral/
+WARNING 2025-06-25 01:37:22,891 basehttp 19176 11252 "POST /api/mistral/ HTTP/1.1" 403 45
+WARNING 2025-06-25 01:37:22,891 basehttp 19176 11252 "POST /api/mistral/ HTTP/1.1" 403 45
+WARNING 2025-06-25 01:37:24,545 log 19176 7044 Forbidden: /api/mistral/
+WARNING 2025-06-25 01:37:24,545 log 19176 7044 Forbidden: /api/mistral/
+WARNING 2025-06-25 01:37:24,546 basehttp 19176 7044 "POST /api/mistral/ HTTP/1.1" 403 45
+WARNING 2025-06-25 01:37:24,546 basehttp 19176 7044 "POST /api/mistral/ HTTP/1.1" 403 45
+INFO 2025-06-25 01:39:02,486 views 19176 12932 MistralView POST called
+INFO 2025-06-25 01:39:02,486 views 19176 12932 MistralView POST called
+INFO 2025-06-25 01:39:02,486 views 19176 12932 MISTRAL_API_KEY найден
+INFO 2025-06-25 01:39:02,486 views 19176 12932 MISTRAL_API_KEY найден
+INFO 2025-06-25 01:39:02,487 views 19176 12932 Получен файл: Текстовый документ.txt, размер: 90 байт
+INFO 2025-06-25 01:39:02,487 views 19176 12932 Получен файл: Текстовый документ.txt, размер: 90 байт
+INFO 2025-06-25 01:39:03,956 _client 19176 12932 HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-06-25 01:39:03,978 basehttp 19176 12932 "POST /api/mistral/ HTTP/1.1" 201 356
+INFO 2025-06-25 01:39:03,978 basehttp 19176 12932 "POST /api/mistral/ HTTP/1.1" 201 356
+INFO 2025-06-25 01:39:04,056 basehttp 19176 8484 "GET /api/tasks/ HTTP/1.1" 200 356
+INFO 2025-06-25 01:39:04,056 basehttp 19176 8484 "GET /api/tasks/ HTTP/1.1" 200 356
+INFO 2025-06-25 01:39:04,127 basehttp 19176 11560 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:39:04,127 basehttp 19176 11560 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:39:04,188 basehttp 19176 18868 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:39:04,188 basehttp 19176 18868 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:39:04,245 basehttp 19176 3332 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:39:04,245 basehttp 19176 3332 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:39:04,304 basehttp 19176 5064 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:39:04,304 basehttp 19176 5064 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:41:12,260 basehttp 19176 13768 "GET /api/user/ HTTP/1.1" 200 54
+INFO 2025-06-25 01:41:12,260 basehttp 19176 13768 "GET /api/user/ HTTP/1.1" 200 54
+INFO 2025-06-25 01:41:12,311 basehttp 19176 8016 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:41:12,311 basehttp 19176 8016 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:41:12,362 basehttp 19176 6640 "GET /api/user/ HTTP/1.1" 200 54
+INFO 2025-06-25 01:41:12,362 basehttp 19176 6640 "GET /api/user/ HTTP/1.1" 200 54
+INFO 2025-06-25 01:41:12,414 basehttp 19176 2344 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:41:12,414 basehttp 19176 2344 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:41:12,447 basehttp 19176 17632 "GET /api/tasks/ HTTP/1.1" 200 356
+INFO 2025-06-25 01:41:12,447 basehttp 19176 17632 "GET /api/tasks/ HTTP/1.1" 200 356
+INFO 2025-06-25 01:41:12,468 basehttp 19176 10604 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:41:12,468 basehttp 19176 10604 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:41:12,499 basehttp 19176 18220 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:41:12,499 basehttp 19176 18220 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:41:12,523 basehttp 19176 12612 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:41:12,523 basehttp 19176 12612 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:41:12,569 basehttp 19176 17796 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:41:12,569 basehttp 19176 17796 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:41:53,344 basehttp 19176 9168 "GET /api/user/ HTTP/1.1" 200 54
+INFO 2025-06-25 01:41:53,344 basehttp 19176 9168 "GET /api/user/ HTTP/1.1" 200 54
+INFO 2025-06-25 01:41:53,402 basehttp 19176 732 "GET /api/user/ HTTP/1.1" 200 54
+INFO 2025-06-25 01:41:53,402 basehttp 19176 732 "GET /api/user/ HTTP/1.1" 200 54
+INFO 2025-06-25 01:41:53,415 basehttp 19176 8404 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:41:53,415 basehttp 19176 8404 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:41:53,454 basehttp 19176 13916 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:41:53,454 basehttp 19176 13916 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:41:53,464 basehttp 19176 19004 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:41:53,464 basehttp 19176 19004 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:41:53,497 basehttp 19176 8032 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:41:53,497 basehttp 19176 8032 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:41:53,545 basehttp 19176 13080 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:41:53,545 basehttp 19176 13080 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:41:53,572 basehttp 19176 13852 "GET /api/tasks/ HTTP/1.1" 200 356
+INFO 2025-06-25 01:41:53,572 basehttp 19176 13852 "GET /api/tasks/ HTTP/1.1" 200 356
+INFO 2025-06-25 01:41:53,596 basehttp 19176 2164 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:41:53,596 basehttp 19176 2164 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:42:38,870 basehttp 19176 5036 "GET /api/user/ HTTP/1.1" 200 54
+INFO 2025-06-25 01:42:38,870 basehttp 19176 5036 "GET /api/user/ HTTP/1.1" 200 54
+INFO 2025-06-25 01:42:38,924 basehttp 19176 12824 "GET /api/user/ HTTP/1.1" 200 54
+INFO 2025-06-25 01:42:38,924 basehttp 19176 12824 "GET /api/user/ HTTP/1.1" 200 54
+INFO 2025-06-25 01:42:38,974 basehttp 19176 1884 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:42:38,974 basehttp 19176 1884 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:42:38,998 basehttp 19176 10924 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:42:38,998 basehttp 19176 10924 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:42:39,028 basehttp 19176 9524 "GET /api/tasks/ HTTP/1.1" 200 356
+INFO 2025-06-25 01:42:39,028 basehttp 19176 9524 "GET /api/tasks/ HTTP/1.1" 200 356
+INFO 2025-06-25 01:42:39,076 basehttp 19176 712 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:42:39,076 basehttp 19176 712 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:42:39,124 basehttp 19176 10192 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:42:39,124 basehttp 19176 10192 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:42:39,163 basehttp 19176 4844 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:42:39,163 basehttp 19176 4844 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:42:39,289 basehttp 19176 14916 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:42:39,289 basehttp 19176 14916 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:42:49,996 autoreload 19176 8712 C:\todolist\services\backend\todo\views.py changed, reloading.
+INFO 2025-06-25 01:42:49,996 autoreload 19176 8712 C:\todolist\services\backend\todo\views.py changed, reloading.
+INFO 2025-06-25 01:42:51,003 autoreload 9264 15412 Watching for file changes with StatReloader
+INFO 2025-06-25 01:42:51,003 autoreload 9264 15412 Watching for file changes with StatReloader
+INFO 2025-06-25 01:43:53,375 basehttp 9264 2108 "GET /api/user/ HTTP/1.1" 200 54
+INFO 2025-06-25 01:43:53,375 basehttp 9264 2108 "GET /api/user/ HTTP/1.1" 200 54
+INFO 2025-06-25 01:43:53,428 basehttp 9264 12516 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:43:53,428 basehttp 9264 12516 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:43:53,473 basehttp 9264 3740 "GET /api/user/ HTTP/1.1" 200 54
+INFO 2025-06-25 01:43:53,473 basehttp 9264 3740 "GET /api/user/ HTTP/1.1" 200 54
+INFO 2025-06-25 01:43:53,567 basehttp 9264 6328 "GET /api/tasks/ HTTP/1.1" 200 356
+INFO 2025-06-25 01:43:53,567 basehttp 9264 6328 "GET /api/tasks/ HTTP/1.1" 200 356
+INFO 2025-06-25 01:43:53,616 basehttp 9264 13264 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:43:53,616 basehttp 9264 13264 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:43:53,632 basehttp 9264 9052 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:43:53,632 basehttp 9264 9052 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:43:53,665 basehttp 9264 18220 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:43:53,665 basehttp 9264 18220 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:43:53,687 basehttp 9264 9752 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:43:53,687 basehttp 9264 9752 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:43:53,706 basehttp 9264 5996 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:43:53,706 basehttp 9264 5996 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:44:02,386 basehttp 9264 11888 "GET /api/user/ HTTP/1.1" 200 54
+INFO 2025-06-25 01:44:02,390 basehttp 9264 536 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:44:02,386 basehttp 9264 11888 "GET /api/user/ HTTP/1.1" 200 54
+INFO 2025-06-25 01:44:02,390 basehttp 9264 536 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:44:02,464 basehttp 9264 19304 "GET /api/user/ HTTP/1.1" 200 54
+INFO 2025-06-25 01:44:02,464 basehttp 9264 19304 "GET /api/user/ HTTP/1.1" 200 54
+INFO 2025-06-25 01:44:02,478 basehttp 9264 17848 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:44:02,478 basehttp 9264 17848 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:44:02,486 basehttp 9264 16716 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:44:02,494 basehttp 9264 16912 "GET /api/tasks/ HTTP/1.1" 200 356
+INFO 2025-06-25 01:44:02,486 basehttp 9264 16716 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:44:02,494 basehttp 9264 16912 "GET /api/tasks/ HTTP/1.1" 200 356
+INFO 2025-06-25 01:44:02,559 basehttp 9264 5420 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:44:02,559 basehttp 9264 5420 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:44:02,568 basehttp 9264 13612 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:44:02,568 basehttp 9264 13612 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:44:02,608 basehttp 9264 15556 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:44:02,608 basehttp 9264 15556 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:44:22,748 basehttp 9264 3828 "GET /api/user/ HTTP/1.1" 200 54
+INFO 2025-06-25 01:44:22,748 basehttp 9264 3828 "GET /api/user/ HTTP/1.1" 200 54
+INFO 2025-06-25 01:44:22,752 basehttp 9264 2516 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:44:22,752 basehttp 9264 2516 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:44:22,806 basehttp 9264 9160 "GET /api/user/ HTTP/1.1" 200 54
+INFO 2025-06-25 01:44:22,806 basehttp 9264 9160 "GET /api/user/ HTTP/1.1" 200 54
+INFO 2025-06-25 01:44:22,813 basehttp 9264 732 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:44:22,813 basehttp 9264 732 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:44:22,858 basehttp 9264 11140 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:44:22,858 basehttp 9264 11140 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:44:22,872 basehttp 9264 1116 "GET /api/tasks/ HTTP/1.1" 200 356
+INFO 2025-06-25 01:44:22,872 basehttp 9264 1116 "GET /api/tasks/ HTTP/1.1" 200 356
+INFO 2025-06-25 01:44:22,905 basehttp 9264 8376 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:44:22,905 basehttp 9264 8376 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:44:22,956 basehttp 9264 6636 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:44:22,956 basehttp 9264 6636 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:44:23,046 basehttp 9264 8524 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:44:23,046 basehttp 9264 8524 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:45:13,960 basehttp 9264 12204 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:45:13,960 basehttp 9264 12204 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:45:14,010 basehttp 9264 12976 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:45:14,010 basehttp 9264 12976 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:45:14,065 basehttp 9264 3980 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:45:14,065 basehttp 9264 3980 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:45:14,114 basehttp 9264 12284 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:45:14,114 basehttp 9264 12284 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:45:18,207 basehttp 9264 4940 "PATCH /api/tasks/28/ HTTP/1.1" 200 354
+INFO 2025-06-25 01:45:18,207 basehttp 9264 4940 "PATCH /api/tasks/28/ HTTP/1.1" 200 354
+INFO 2025-06-25 01:45:18,289 basehttp 9264 11332 "GET /api/tasks/ HTTP/1.1" 200 356
+INFO 2025-06-25 01:45:18,289 basehttp 9264 11332 "GET /api/tasks/ HTTP/1.1" 200 356
+INFO 2025-06-25 01:45:22,006 basehttp 9264 11108 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:45:22,006 basehttp 9264 11108 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:45:22,071 basehttp 9264 4284 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:45:22,071 basehttp 9264 4284 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:45:22,111 basehttp 9264 17780 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:45:22,111 basehttp 9264 17780 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:45:22,170 basehttp 9264 15120 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:45:22,170 basehttp 9264 15120 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:45:25,769 basehttp 9264 14644 "PATCH /api/tasks/28/ HTTP/1.1" 200 354
+INFO 2025-06-25 01:45:25,769 basehttp 9264 14644 "PATCH /api/tasks/28/ HTTP/1.1" 200 354
+INFO 2025-06-25 01:45:25,822 basehttp 9264 13904 "GET /api/tasks/ HTTP/1.1" 200 356
+INFO 2025-06-25 01:45:25,822 basehttp 9264 13904 "GET /api/tasks/ HTTP/1.1" 200 356
+INFO 2025-06-25 01:45:25,879 basehttp 9264 19440 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:45:25,879 basehttp 9264 19440 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:45:25,880 basehttp 9264 14328 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:45:25,880 basehttp 9264 14328 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:45:27,356 basehttp 9264 7092 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:45:27,356 basehttp 9264 7092 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:45:27,362 basehttp 9264 5260 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:45:27,362 basehttp 9264 5260 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:45:27,407 basehttp 9264 1540 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:45:27,407 basehttp 9264 1540 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:45:27,411 basehttp 9264 17476 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:45:27,411 basehttp 9264 17476 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:45:29,603 basehttp 9264 15480 "PATCH /api/tasks/28/ HTTP/1.1" 200 354
+INFO 2025-06-25 01:45:29,603 basehttp 9264 15480 "PATCH /api/tasks/28/ HTTP/1.1" 200 354
+INFO 2025-06-25 01:45:29,656 basehttp 9264 5996 "GET /api/tasks/ HTTP/1.1" 200 356
+INFO 2025-06-25 01:45:29,656 basehttp 9264 5996 "GET /api/tasks/ HTTP/1.1" 200 356
+INFO 2025-06-25 01:46:43,918 basehttp 9264 352 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:46:43,918 basehttp 9264 352 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:46:43,921 basehttp 9264 1804 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:46:43,921 basehttp 9264 1804 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:46:43,988 basehttp 9264 11308 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:46:43,988 basehttp 9264 11308 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:46:43,992 basehttp 9264 19312 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:46:43,992 basehttp 9264 19312 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:46:46,586 basehttp 9264 7560 "PATCH /api/tasks/28/ HTTP/1.1" 200 354
+INFO 2025-06-25 01:46:46,586 basehttp 9264 7560 "PATCH /api/tasks/28/ HTTP/1.1" 200 354
+INFO 2025-06-25 01:46:46,649 basehttp 9264 1108 "GET /api/tasks/ HTTP/1.1" 200 356
+INFO 2025-06-25 01:46:46,649 basehttp 9264 1108 "GET /api/tasks/ HTTP/1.1" 200 356
+INFO 2025-06-25 01:46:46,725 basehttp 9264 18184 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:46:46,725 basehttp 9264 18184 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:46:46,729 basehttp 9264 9960 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:46:46,729 basehttp 9264 9960 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:46:49,607 basehttp 9264 5860 "GET /admin/todo/task/ HTTP/1.1" 200 15879
+INFO 2025-06-25 01:46:49,607 basehttp 9264 5860 "GET /admin/todo/task/ HTTP/1.1" 200 15879
+INFO 2025-06-25 01:46:49,677 basehttp 9264 5860 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:46:49,677 basehttp 9264 5860 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:46:54,398 basehttp 9264 8004 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:46:54,398 basehttp 9264 8004 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:46:54,403 basehttp 9264 4156 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:46:54,403 basehttp 9264 4156 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:46:54,472 basehttp 9264 19180 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:46:54,473 basehttp 9264 4032 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:46:54,472 basehttp 9264 19180 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:46:54,473 basehttp 9264 4032 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:46:56,913 basehttp 9264 1508 "PATCH /api/tasks/28/ HTTP/1.1" 200 354
+INFO 2025-06-25 01:46:56,913 basehttp 9264 1508 "PATCH /api/tasks/28/ HTTP/1.1" 200 354
+INFO 2025-06-25 01:46:56,982 basehttp 9264 13100 "GET /api/tasks/ HTTP/1.1" 200 356
+INFO 2025-06-25 01:46:56,982 basehttp 9264 13100 "GET /api/tasks/ HTTP/1.1" 200 356
+INFO 2025-06-25 01:46:57,047 basehttp 9264 19104 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:46:57,047 basehttp 9264 19104 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:46:57,049 basehttp 9264 15304 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:46:57,049 basehttp 9264 15304 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:47:01,991 basehttp 9264 5860 "GET /admin/todo/task/ HTTP/1.1" 200 15878
+INFO 2025-06-25 01:47:01,991 basehttp 9264 5860 "GET /admin/todo/task/ HTTP/1.1" 200 15878
+INFO 2025-06-25 01:47:02,014 basehttp 9264 5860 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,014 basehttp 9264 5860 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,020 basehttp 9264 18452 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,021 basehttp 9264 10860 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,020 basehttp 9264 18452 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,021 basehttp 9264 10860 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,028 basehttp 9264 12528 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,029 basehttp 9264 16460 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,028 basehttp 9264 12528 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,032 basehttp 9264 5860 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,029 basehttp 9264 16460 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,032 basehttp 9264 18452 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,033 basehttp 9264 10860 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,032 basehttp 9264 5860 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,035 basehttp 9264 12528 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,036 basehttp 9264 16460 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,032 basehttp 9264 18452 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,033 basehttp 9264 10860 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,035 basehttp 9264 12528 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,039 basehttp 9264 5860 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,036 basehttp 9264 16460 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,042 basehttp 9264 18452 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,043 basehttp 9264 10860 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,044 basehttp 9264 12528 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,039 basehttp 9264 5860 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,042 basehttp 9264 18452 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,043 basehttp 9264 10860 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,044 basehttp 9264 12528 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,047 basehttp 9264 16460 "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,047 basehttp 9264 16460 "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,051 basehttp 9264 16460 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,051 basehttp 9264 16460 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,054 basehttp 9264 16460 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,054 basehttp 9264 16460 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,059 basehttp 9264 16460 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,059 basehttp 9264 16460 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:02,078 basehttp 9264 14480 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:47:02,078 basehttp 9264 14480 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:47:18,984 basehttp 9264 14480 "POST /admin/todo/task/ HTTP/1.1" 200 10720
+INFO 2025-06-25 01:47:18,984 basehttp 9264 14480 "POST /admin/todo/task/ HTTP/1.1" 200 10720
+INFO 2025-06-25 01:47:19,008 basehttp 9264 14480 "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:19,008 basehttp 9264 14480 "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+INFO 2025-06-25 01:47:20,254 basehttp 9264 14480 "POST /admin/todo/task/ HTTP/1.1" 302 0
+INFO 2025-06-25 01:47:20,254 basehttp 9264 14480 "POST /admin/todo/task/ HTTP/1.1" 302 0
+INFO 2025-06-25 01:47:20,331 basehttp 9264 14480 "GET /admin/todo/task/ HTTP/1.1" 200 12580
+INFO 2025-06-25 01:47:20,331 basehttp 9264 14480 "GET /admin/todo/task/ HTTP/1.1" 200 12580
+INFO 2025-06-25 01:47:20,404 basehttp 9264 14480 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:47:20,404 basehttp 9264 14480 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:47:27,104 basehttp 9264 17328 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:47:27,104 basehttp 9264 17328 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:47:27,106 basehttp 9264 13260 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:47:27,106 basehttp 9264 13260 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:47:27,173 basehttp 9264 8948 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:47:27,173 basehttp 9264 8948 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:47:27,278 basehttp 9264 6796 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:47:27,278 basehttp 9264 6796 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:47:29,648 basehttp 9264 7552 "PATCH /api/tasks/28/ HTTP/1.1" 200 354
+INFO 2025-06-25 01:47:29,648 basehttp 9264 7552 "PATCH /api/tasks/28/ HTTP/1.1" 200 354
+INFO 2025-06-25 01:47:29,719 basehttp 9264 16712 "GET /api/tasks/ HTTP/1.1" 200 356
+INFO 2025-06-25 01:47:29,719 basehttp 9264 16712 "GET /api/tasks/ HTTP/1.1" 200 356
+INFO 2025-06-25 01:47:29,797 basehttp 9264 13936 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:47:29,797 basehttp 9264 13936 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 01:47:29,800 basehttp 9264 18756 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:47:29,800 basehttp 9264 18756 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 01:47:35,862 basehttp 9264 14480 "GET /admin/todo/task/ HTTP/1.1" 200 12446
+INFO 2025-06-25 01:47:35,862 basehttp 9264 14480 "GET /admin/todo/task/ HTTP/1.1" 200 12446
+INFO 2025-06-25 01:47:35,923 basehttp 9264 14480 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 01:47:35,923 basehttp 9264 14480 "GET /admin/jsi18n/ HTTP/1.1" 200 3342

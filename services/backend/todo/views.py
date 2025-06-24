@@ -157,10 +157,10 @@ class AITask(BaseModel):
 class Project(BaseModel):
     tasks: List[AITask] = Field(..., description="Список задач")
 
-@method_decorator(csrf_exempt, name="dispatch")
+@method_decorator(ensure_csrf_cookie, name="dispatch")
 class MistralView(APIView):
-    permission_classes = [AllowAny]
-    authentication_classes = []
+    authentication_classes = [SessionAuthentication]
+    permission_classes = [IsAuthenticated]
 
     def options(self, request, *args, **kwargs):
         response = Response()
