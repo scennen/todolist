@@ -20,7 +20,6 @@
 
 3. Откройте в браузере:
    - Frontend: [http://localhost](http://localhost)
-   - Backend (Django API): [http://localhost:8000](http://localhost:8000)
    - Админка Django: [http://localhost:8000/admin](http://localhost:8000/admin)
 
 4. (Опционально) Создайте суперпользователя для входа в админку:

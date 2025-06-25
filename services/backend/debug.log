@@ -894,3 +894,465 @@ INFO 2025-06-25 20:59:21,045 basehttp 16 138300960536256 "GET /admin/ HTTP/1.1" 
 INFO 2025-06-25 20:59:21,045 basehttp 16 138300960536256 "GET /admin/ HTTP/1.1" 302 0
 INFO 2025-06-25 20:59:21,097 basehttp 16 138300960536256 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4184
 INFO 2025-06-25 20:59:21,097 basehttp 16 138300960536256 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4184
+INFO 2025-06-25 21:04:37,443 autoreload 16 140139510266752 Watching for file changes with StatReloader
+INFO 2025-06-25 21:04:37,443 autoreload 16 140139510266752 Watching for file changes with StatReloader
+ERROR 2025-06-25 21:04:49,176 log 16 140139347048128 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/usr/local/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2025-06-25 21:04:49,176 log 16 140139347048128 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/usr/local/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2025-06-25 21:04:49,179 basehttp 16 140139347048128 "GET / HTTP/1.1" 500 74669
+ERROR 2025-06-25 21:04:49,179 basehttp 16 140139347048128 "GET / HTTP/1.1" 500 74669
+INFO 2025-06-25 21:04:49,706 basehttp 16 140139347048128 "GET /admin HTTP/1.1" 301 0
+INFO 2025-06-25 21:04:49,706 basehttp 16 140139347048128 "GET /admin HTTP/1.1" 301 0
+INFO 2025-06-25 21:04:49,730 basehttp 16 140139338655424 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-06-25 21:04:49,730 basehttp 16 140139338655424 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-06-25 21:04:49,763 basehttp 16 140139338655424 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4184
+INFO 2025-06-25 21:04:49,763 basehttp 16 140139338655424 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4184
+ERROR 2025-06-25 21:04:55,075 log 16 140139338655424 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/usr/local/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2025-06-25 21:04:55,075 log 16 140139338655424 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/usr/local/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2025-06-25 21:04:55,078 basehttp 16 140139338655424 "GET / HTTP/1.1" 500 74806
+ERROR 2025-06-25 21:04:55,078 basehttp 16 140139338655424 "GET / HTTP/1.1" 500 74806
+ERROR 2025-06-25 21:04:55,735 log 16 140139338655424 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/usr/local/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2025-06-25 21:04:55,735 log 16 140139338655424 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/usr/local/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2025-06-25 21:04:55,738 basehttp 16 140139338655424 "GET / HTTP/1.1" 500 74806
+ERROR 2025-06-25 21:04:55,738 basehttp 16 140139338655424 "GET / HTTP/1.1" 500 74806
+ERROR 2025-06-25 21:04:56,242 log 16 140139338655424 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/usr/local/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2025-06-25 21:04:56,242 log 16 140139338655424 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/usr/local/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2025-06-25 21:04:56,245 basehttp 16 140139338655424 "GET / HTTP/1.1" 500 74806
+ERROR 2025-06-25 21:04:56,245 basehttp 16 140139338655424 "GET / HTTP/1.1" 500 74806
+ERROR 2025-06-25 21:04:56,762 log 16 140139338655424 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/usr/local/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2025-06-25 21:04:56,762 log 16 140139338655424 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/usr/local/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2025-06-25 21:04:56,766 basehttp 16 140139338655424 "GET / HTTP/1.1" 500 74806
+ERROR 2025-06-25 21:04:56,766 basehttp 16 140139338655424 "GET / HTTP/1.1" 500 74806
+ERROR 2025-06-25 21:04:57,136 log 16 140139338655424 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/usr/local/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2025-06-25 21:04:57,136 log 16 140139338655424 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/usr/local/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2025-06-25 21:04:57,139 basehttp 16 140139338655424 "GET / HTTP/1.1" 500 74806
+ERROR 2025-06-25 21:04:57,139 basehttp 16 140139338655424 "GET / HTTP/1.1" 500 74806
+INFO 2025-06-25 21:12:00,554 autoreload 16 128987174685568 Watching for file changes with StatReloader
+INFO 2025-06-25 21:12:00,554 autoreload 16 128987174685568 Watching for file changes with StatReloader
+ERROR 2025-06-25 21:12:08,560 log 16 128987086096064 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/usr/local/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2025-06-25 21:12:08,560 log 16 128987086096064 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/usr/local/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2025-06-25 21:12:08,564 basehttp 16 128987086096064 "GET / HTTP/1.1" 500 74669
+ERROR 2025-06-25 21:12:08,564 basehttp 16 128987086096064 "GET / HTTP/1.1" 500 74669
+WARNING 2025-06-25 21:12:29,209 log 16 128986860484288 Forbidden: /api/user/
+WARNING 2025-06-25 21:12:29,209 log 16 128986860484288 Forbidden: /api/user/
+WARNING 2025-06-25 21:12:29,214 basehttp 16 128986860484288 "GET /api/user/ HTTP/1.0" 403 58
+WARNING 2025-06-25 21:12:29,214 basehttp 16 128986860484288 "GET /api/user/ HTTP/1.0" 403 58
+INFO 2025-06-25 21:12:29,226 basehttp 16 128986852091584 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:12:29,226 basehttp 16 128986852091584 "GET /api/priorities/ HTTP/1.0" 200 125
+DEBUG 2025-06-25 21:12:48,714 models 16 128986843698880 create_user called with email=user7@gmail.com, extra_fields={'username': 'user7'}
+DEBUG 2025-06-25 21:12:48,714 models 16 128986843698880 create_user called with email=user7@gmail.com, extra_fields={'username': 'user7'}
+DEBUG 2025-06-25 21:12:49,136 models 16 128986843698880 User created: user7
+DEBUG 2025-06-25 21:12:49,136 models 16 128986843698880 User created: user7
+INFO 2025-06-25 21:12:49,138 basehttp 16 128986843698880 "POST /api/register/ HTTP/1.0" 201 34
+INFO 2025-06-25 21:12:49,138 basehttp 16 128986843698880 "POST /api/register/ HTTP/1.0" 201 34
+INFO 2025-06-25 21:12:52,015 basehttp 16 128986835306176 "POST /api/login/ HTTP/1.0" 200 53
+INFO 2025-06-25 21:12:52,015 basehttp 16 128986835306176 "POST /api/login/ HTTP/1.0" 200 53
+INFO 2025-06-25 21:12:52,095 basehttp 16 128986826913472 "GET /api/tasks/ HTTP/1.0" 200 2
+INFO 2025-06-25 21:12:52,095 basehttp 16 128986826913472 "GET /api/tasks/ HTTP/1.0" 200 2
+INFO 2025-06-25 21:13:03,058 basehttp 16 128987086096064 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-06-25 21:13:03,058 basehttp 16 128987086096064 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-06-25 21:13:03,125 basehttp 16 128987086096064 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3698
+INFO 2025-06-25 21:13:03,125 basehttp 16 128987086096064 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3698
+INFO 2025-06-25 21:14:46,344 autoreload 16 138189121358720 Watching for file changes with StatReloader
+INFO 2025-06-25 21:14:46,344 autoreload 16 138189121358720 Watching for file changes with StatReloader
+INFO 2025-06-25 21:14:57,154 basehttp 16 138188962133696 "GET /api/user/ HTTP/1.0" 200 53
+INFO 2025-06-25 21:14:57,154 basehttp 16 138188962133696 "GET /api/user/ HTTP/1.0" 200 53
+INFO 2025-06-25 21:14:57,157 basehttp 16 138188953740992 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:14:57,157 basehttp 16 138188953740992 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:14:57,254 basehttp 16 138188962133696 "GET /api/tasks/ HTTP/1.0" 200 2
+INFO 2025-06-25 21:14:57,254 basehttp 16 138188962133696 "GET /api/tasks/ HTTP/1.0" 200 2
+ERROR 2025-06-25 21:15:01,413 log 16 138188962133696 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/usr/local/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2025-06-25 21:15:01,413 log 16 138188962133696 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/usr/local/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2025-06-25 21:15:01,416 basehttp 16 138188962133696 "GET / HTTP/1.1" 500 74810
+ERROR 2025-06-25 21:15:01,416 basehttp 16 138188962133696 "GET / HTTP/1.1" 500 74810
+INFO 2025-06-25 21:15:05,434 basehttp 16 138188962133696 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-06-25 21:15:05,434 basehttp 16 138188962133696 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-06-25 21:15:05,501 basehttp 16 138188962133696 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3698
+INFO 2025-06-25 21:15:05,501 basehttp 16 138188962133696 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3698
+DEBUG 2025-06-25 21:16:05,376 models 25 135004141804416 create_user called with email=egor.kostousov535@gmail.com, extra_fields={'username': 'admin', 'is_staff': True, 'is_superuser': True}
+DEBUG 2025-06-25 21:16:05,376 models 25 135004141804416 create_user called with email=egor.kostousov535@gmail.com, extra_fields={'username': 'admin', 'is_staff': True, 'is_superuser': True}
+DEBUG 2025-06-25 21:16:05,791 models 25 135004141804416 User created: admin
+DEBUG 2025-06-25 21:16:05,791 models 25 135004141804416 User created: admin
+INFO 2025-06-25 21:16:13,136 basehttp 16 138188962133696 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-06-25 21:16:13,136 basehttp 16 138188962133696 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-06-25 21:16:13,173 basehttp 16 138188962133696 "GET /admin/ HTTP/1.1" 200 9510
+INFO 2025-06-25 21:16:13,173 basehttp 16 138188962133696 "GET /admin/ HTTP/1.1" 200 9510
+INFO 2025-06-25 21:16:15,612 basehttp 16 138188962133696 "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-06-25 21:16:15,612 basehttp 16 138188962133696 "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-06-25 21:16:15,688 basehttp 16 138188962133696 "GET /admin/ HTTP/1.1" 200 9510
+INFO 2025-06-25 21:16:15,688 basehttp 16 138188962133696 "GET /admin/ HTTP/1.1" 200 9510
+INFO 2025-06-25 21:16:20,836 basehttp 16 138188945348288 "GET /api/user/ HTTP/1.0" 200 65
+INFO 2025-06-25 21:16:20,836 basehttp 16 138188945348288 "GET /api/user/ HTTP/1.0" 200 65
+INFO 2025-06-25 21:16:20,840 basehttp 16 138188936955584 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:16:20,840 basehttp 16 138188936955584 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:16:20,944 basehttp 16 138188928562880 "GET /api/tasks/ HTTP/1.0" 200 2
+INFO 2025-06-25 21:16:20,944 basehttp 16 138188928562880 "GET /api/tasks/ HTTP/1.0" 200 2
+INFO 2025-06-25 21:16:24,249 basehttp 16 138188962133696 "GET /admin/todo/user/ HTTP/1.1" 200 11405
+INFO 2025-06-25 21:16:24,249 basehttp 16 138188962133696 "GET /admin/todo/user/ HTTP/1.1" 200 11405
+INFO 2025-06-25 21:16:24,352 basehttp 16 138188962133696 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 21:16:24,352 basehttp 16 138188962133696 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 21:16:27,211 basehttp 16 138188928562880 "GET /api/statuses/ HTTP/1.0" 200 101
+INFO 2025-06-25 21:16:27,211 basehttp 16 138188936955584 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:16:27,211 basehttp 16 138188928562880 "GET /api/statuses/ HTTP/1.0" 200 101
+INFO 2025-06-25 21:16:27,211 basehttp 16 138188936955584 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:16:34,694 views 16 138188945348288 POST /api/tasks/ - data: {'title': 'проверка', 'description': '', 'priority': 2, 'status': 1, 'due_date': '2025-06-27', 'project': 'Сегодня'}
+INFO 2025-06-25 21:16:34,694 views 16 138188945348288 POST /api/tasks/ - data: {'title': 'проверка', 'description': '', 'priority': 2, 'status': 1, 'due_date': '2025-06-27', 'project': 'Сегодня'}
+INFO 2025-06-25 21:16:34,703 views 16 138188945348288 Task created: проверка
+INFO 2025-06-25 21:16:34,703 views 16 138188945348288 Task created: проверка
+INFO 2025-06-25 21:16:34,710 basehttp 16 138188945348288 "POST /api/tasks/ HTTP/1.0" 201 272
+INFO 2025-06-25 21:16:34,710 basehttp 16 138188945348288 "POST /api/tasks/ HTTP/1.0" 201 272
+INFO 2025-06-25 21:16:34,731 basehttp 16 138188920170176 "GET /api/tasks/ HTTP/1.0" 200 274
+INFO 2025-06-25 21:16:34,731 basehttp 16 138188920170176 "GET /api/tasks/ HTTP/1.0" 200 274
+INFO 2025-06-25 21:16:34,756 basehttp 16 138188945348288 "GET /api/statuses/ HTTP/1.0" 200 101
+INFO 2025-06-25 21:16:34,756 basehttp 16 138188936955584 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:16:34,756 basehttp 16 138188945348288 "GET /api/statuses/ HTTP/1.0" 200 101
+INFO 2025-06-25 21:16:34,756 basehttp 16 138188936955584 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:16:36,300 basehttp 16 138188962133696 "GET /admin/todo/task/ HTTP/1.1" 200 12383
+INFO 2025-06-25 21:16:36,300 basehttp 16 138188962133696 "GET /admin/todo/task/ HTTP/1.1" 200 12383
+INFO 2025-06-25 21:16:36,366 basehttp 16 138188962133696 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 21:16:36,366 basehttp 16 138188962133696 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 21:16:36,378 basehttp 16 138188953740992 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2025-06-25 21:16:36,378 basehttp 16 138188953740992 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2025-06-25 21:16:39,574 basehttp 16 138188936955584 "PATCH /api/tasks/1/ HTTP/1.0" 200 271
+INFO 2025-06-25 21:16:39,574 basehttp 16 138188936955584 "PATCH /api/tasks/1/ HTTP/1.0" 200 271
+INFO 2025-06-25 21:16:39,598 basehttp 16 138188945348288 "GET /api/tasks/ HTTP/1.0" 200 273
+INFO 2025-06-25 21:16:39,598 basehttp 16 138188945348288 "GET /api/tasks/ HTTP/1.0" 200 273
+INFO 2025-06-25 21:16:41,358 basehttp 16 138188953740992 "GET /admin/todo/task/ HTTP/1.1" 200 12383
+INFO 2025-06-25 21:16:41,358 basehttp 16 138188953740992 "GET /admin/todo/task/ HTTP/1.1" 200 12383
+INFO 2025-06-25 21:16:41,387 basehttp 16 138188962133696 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-06-25 21:16:41,387 basehttp 16 138188962133696 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-06-25 21:16:41,398 basehttp 16 138188953740992 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 21:16:41,398 basehttp 16 138188953740992 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 21:16:43,009 basehttp 16 138188928562880 "PATCH /api/tasks/1/ HTTP/1.0" 200 272
+INFO 2025-06-25 21:16:43,009 basehttp 16 138188928562880 "PATCH /api/tasks/1/ HTTP/1.0" 200 272
+INFO 2025-06-25 21:16:43,030 basehttp 16 138188928562880 "GET /api/tasks/ HTTP/1.0" 200 274
+INFO 2025-06-25 21:16:43,030 basehttp 16 138188928562880 "GET /api/tasks/ HTTP/1.0" 200 274
+INFO 2025-06-25 21:16:43,926 basehttp 16 138188945348288 "GET /api/user/ HTTP/1.0" 200 65
+INFO 2025-06-25 21:16:43,928 basehttp 16 138188936955584 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:16:43,926 basehttp 16 138188945348288 "GET /api/user/ HTTP/1.0" 200 65
+INFO 2025-06-25 21:16:43,928 basehttp 16 138188936955584 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:16:43,964 basehttp 16 138188911777472 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:16:43,965 basehttp 16 138188693698240 "GET /api/statuses/ HTTP/1.0" 200 101
+INFO 2025-06-25 21:16:43,964 basehttp 16 138188911777472 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:16:43,965 basehttp 16 138188693698240 "GET /api/statuses/ HTTP/1.0" 200 101
+INFO 2025-06-25 21:16:43,973 basehttp 16 138188685305536 "GET /api/tasks/ HTTP/1.0" 200 274
+INFO 2025-06-25 21:16:43,973 basehttp 16 138188685305536 "GET /api/tasks/ HTTP/1.0" 200 274
+INFO 2025-06-25 21:16:46,281 basehttp 16 138188953740992 "GET /admin/todo/task/ HTTP/1.1" 200 12383
+INFO 2025-06-25 21:16:46,281 basehttp 16 138188953740992 "GET /admin/todo/task/ HTTP/1.1" 200 12383
+INFO 2025-06-25 21:16:46,320 basehttp 16 138188953740992 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 21:16:46,320 basehttp 16 138188953740992 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 21:16:52,053 basehttp 16 138188685305536 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:16:52,053 basehttp 16 138188685305536 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:16:52,054 basehttp 16 138188693698240 "GET /api/statuses/ HTTP/1.0" 200 101
+INFO 2025-06-25 21:16:52,054 basehttp 16 138188693698240 "GET /api/statuses/ HTTP/1.0" 200 101
+INFO 2025-06-25 21:16:53,978 basehttp 16 138188911777472 "PATCH /api/tasks/1/ HTTP/1.0" 200 272
+INFO 2025-06-25 21:16:53,978 basehttp 16 138188911777472 "PATCH /api/tasks/1/ HTTP/1.0" 200 272
+INFO 2025-06-25 21:16:54,000 basehttp 16 138188936955584 "GET /api/tasks/ HTTP/1.0" 200 274
+INFO 2025-06-25 21:16:54,000 basehttp 16 138188936955584 "GET /api/tasks/ HTTP/1.0" 200 274
+INFO 2025-06-25 21:16:54,021 basehttp 16 138188936955584 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:16:54,022 basehttp 16 138188911777472 "GET /api/statuses/ HTTP/1.0" 200 101
+INFO 2025-06-25 21:16:54,021 basehttp 16 138188936955584 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:16:54,022 basehttp 16 138188911777472 "GET /api/statuses/ HTTP/1.0" 200 101
+INFO 2025-06-25 21:16:56,780 basehttp 16 138188953740992 "GET /admin/todo/task/ HTTP/1.1" 200 12381
+INFO 2025-06-25 21:16:56,780 basehttp 16 138188953740992 "GET /admin/todo/task/ HTTP/1.1" 200 12381
+INFO 2025-06-25 21:16:56,815 basehttp 16 138188953740992 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 21:16:56,815 basehttp 16 138188953740992 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 21:16:58,688 basehttp 16 138188693698240 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:16:58,690 basehttp 16 138188685305536 "GET /api/statuses/ HTTP/1.0" 200 101
+INFO 2025-06-25 21:16:58,688 basehttp 16 138188693698240 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:16:58,690 basehttp 16 138188685305536 "GET /api/statuses/ HTTP/1.0" 200 101
+INFO 2025-06-25 21:17:03,874 views 16 138188685305536 MistralView POST called
+INFO 2025-06-25 21:17:03,874 views 16 138188685305536 MistralView POST called
+INFO 2025-06-25 21:17:03,875 views 16 138188685305536 MISTRAL_API_KEY найден
+INFO 2025-06-25 21:17:03,875 views 16 138188685305536 MISTRAL_API_KEY найден
+INFO 2025-06-25 21:17:03,876 views 16 138188685305536 Получен файл: Сегодня очень срочно мне нужно проч.txt, размер: 179 байт
+INFO 2025-06-25 21:17:03,876 views 16 138188685305536 Получен файл: Сегодня очень срочно мне нужно проч.txt, размер: 179 байт
+INFO 2025-06-25 21:17:22,983 basehttp 16 138188953740992 "GET /admin/todo/task/ HTTP/1.1" 200 12381
+INFO 2025-06-25 21:17:22,983 basehttp 16 138188953740992 "GET /admin/todo/task/ HTTP/1.1" 200 12381
+INFO 2025-06-25 21:17:23,029 basehttp 16 138188953740992 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 21:17:23,029 basehttp 16 138188953740992 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 21:17:31,328 basehttp 16 138188693698240 "GET /api/user/ HTTP/1.0" 200 65
+INFO 2025-06-25 21:17:31,328 basehttp 16 138188693698240 "GET /api/user/ HTTP/1.0" 200 65
+INFO 2025-06-25 21:17:31,359 basehttp 16 138188911777472 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:17:31,359 basehttp 16 138188911777472 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:17:31,381 basehttp 16 138188936955584 "GET /api/statuses/ HTTP/1.0" 200 101
+INFO 2025-06-25 21:17:31,381 basehttp 16 138188936955584 "GET /api/statuses/ HTTP/1.0" 200 101
+INFO 2025-06-25 21:17:31,392 basehttp 16 138188945348288 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:17:31,393 basehttp 16 138188693698240 "GET /api/tasks/ HTTP/1.0" 200 274
+INFO 2025-06-25 21:17:31,392 basehttp 16 138188945348288 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:17:31,393 basehttp 16 138188693698240 "GET /api/tasks/ HTTP/1.0" 200 274
+INFO 2025-06-25 21:17:32,616 basehttp 16 138188911777472 "GET /api/statuses/ HTTP/1.0" 200 101
+INFO 2025-06-25 21:17:32,616 basehttp 16 138188911777472 "GET /api/statuses/ HTTP/1.0" 200 101
+INFO 2025-06-25 21:17:32,619 basehttp 16 138188928562880 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:17:32,619 basehttp 16 138188928562880 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:17:36,999 views 16 138188920170176 MistralView POST called
+INFO 2025-06-25 21:17:36,999 views 16 138188920170176 MistralView POST called
+INFO 2025-06-25 21:17:37,000 views 16 138188920170176 MISTRAL_API_KEY найден
+INFO 2025-06-25 21:17:37,000 views 16 138188920170176 MISTRAL_API_KEY найден
+INFO 2025-06-25 21:17:37,001 views 16 138188920170176 Получен файл: Сегодня очень срочно мне нужно проч.txt, размер: 179 байт
+INFO 2025-06-25 21:17:37,001 views 16 138188920170176 Получен файл: Сегодня очень срочно мне нужно проч.txt, размер: 179 байт
+INFO 2025-06-25 21:17:37,173 _client 16 138188685305536 HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-06-25 21:17:39,830 _client 16 138188920170176 HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-06-25 21:17:39,849 basehttp 16 138188920170176 "POST /api/mistral/ HTTP/1.0" 201 619
+INFO 2025-06-25 21:17:39,849 basehttp 16 138188920170176 "POST /api/mistral/ HTTP/1.0" 201 619
+INFO 2025-06-25 21:17:39,893 basehttp 16 138188920170176 "GET /api/tasks/ HTTP/1.0" 200 1510
+INFO 2025-06-25 21:17:39,893 basehttp 16 138188920170176 "GET /api/tasks/ HTTP/1.0" 200 1510
+INFO 2025-06-25 21:17:39,930 basehttp 16 138188928562880 "GET /api/statuses/ HTTP/1.0" 200 101
+INFO 2025-06-25 21:17:39,930 basehttp 16 138188685305536 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:17:39,930 basehttp 16 138188928562880 "GET /api/statuses/ HTTP/1.0" 200 101
+INFO 2025-06-25 21:17:39,930 basehttp 16 138188685305536 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:17:39,950 basehttp 16 138188920170176 "GET /api/statuses/ HTTP/1.0" 200 101
+INFO 2025-06-25 21:17:39,950 basehttp 16 138188920170176 "GET /api/statuses/ HTTP/1.0" 200 101
+INFO 2025-06-25 21:17:39,957 basehttp 16 138188911777472 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:17:39,957 basehttp 16 138188911777472 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:17:39,970 basehttp 16 138188685305536 "GET /api/statuses/ HTTP/1.0" 200 101
+INFO 2025-06-25 21:17:39,970 basehttp 16 138188685305536 "GET /api/statuses/ HTTP/1.0" 200 101
+INFO 2025-06-25 21:17:39,982 basehttp 16 138188928562880 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:17:39,982 basehttp 16 138188928562880 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:17:39,995 basehttp 16 138188945348288 "GET /api/statuses/ HTTP/1.0" 200 101
+INFO 2025-06-25 21:17:39,995 basehttp 16 138188945348288 "GET /api/statuses/ HTTP/1.0" 200 101
+INFO 2025-06-25 21:17:40,002 basehttp 16 138188936955584 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:17:40,002 basehttp 16 138188936955584 "GET /api/priorities/ HTTP/1.0" 200 125
+INFO 2025-06-25 21:17:47,427 basehttp 16 138188953740992 "GET /admin/todo/task/ HTTP/1.1" 200 14967
+INFO 2025-06-25 21:17:47,427 basehttp 16 138188953740992 "GET /admin/todo/task/ HTTP/1.1" 200 14967
+INFO 2025-06-25 21:17:47,465 basehttp 16 138188953740992 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 21:17:47,465 basehttp 16 138188953740992 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
