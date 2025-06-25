@@ -882,3 +882,7 @@ INFO 2025-06-25 20:28:01,850 autoreload 16 137872973118336 /app/todo/signals.py 
 INFO 2025-06-25 20:28:01,850 autoreload 16 137872973118336 /app/todo/signals.py changed, reloading.
 INFO 2025-06-25 20:28:03,993 autoreload 76 135651433532288 Watching for file changes with StatReloader
 INFO 2025-06-25 20:28:03,993 autoreload 76 135651433532288 Watching for file changes with StatReloader
+INFO 2025-06-25 20:38:13,972 autoreload 16 131296192662400 Watching for file changes with StatReloader
+INFO 2025-06-25 20:38:13,972 autoreload 16 131296192662400 Watching for file changes with StatReloader
+INFO 2025-06-25 20:48:15,533 autoreload 16 131640256510848 Watching for file changes with StatReloader
+INFO 2025-06-25 20:48:15,533 autoreload 16 131640256510848 Watching for file changes with StatReloader

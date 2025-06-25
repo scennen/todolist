@@ -33,13 +33,7 @@ services:
       context: ./services/frontend
       dockerfile: Dockerfile
     ports:
-      - "3000:3000"
-    stdin_open: true
-    tty: true
-    depends_on:
-      - backend
-    volumes:
-      - ./services/frontend:/app
+      - "80:80"
 
 volumes:
   postgres_data:
