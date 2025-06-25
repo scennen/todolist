@@ -28,3 +28,5 @@ node_modules/
 .mypy_cache/
 .vscode/
 __pycache__/
+
+**/debug.log

@@ -886,3 +886,11 @@ INFO 2025-06-25 20:38:13,972 autoreload 16 131296192662400 Watching for file cha
 INFO 2025-06-25 20:38:13,972 autoreload 16 131296192662400 Watching for file changes with StatReloader
 INFO 2025-06-25 20:48:15,533 autoreload 16 131640256510848 Watching for file changes with StatReloader
 INFO 2025-06-25 20:48:15,533 autoreload 16 131640256510848 Watching for file changes with StatReloader
+INFO 2025-06-25 20:54:09,020 autoreload 16 124409555868544 Watching for file changes with StatReloader
+INFO 2025-06-25 20:54:09,020 autoreload 16 124409555868544 Watching for file changes with StatReloader
+INFO 2025-06-25 20:55:10,688 autoreload 16 138301116967808 Watching for file changes with StatReloader
+INFO 2025-06-25 20:55:10,688 autoreload 16 138301116967808 Watching for file changes with StatReloader
+INFO 2025-06-25 20:59:21,045 basehttp 16 138300960536256 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-06-25 20:59:21,045 basehttp 16 138300960536256 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-06-25 20:59:21,097 basehttp 16 138300960536256 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4184
+INFO 2025-06-25 20:59:21,097 basehttp 16 138300960536256 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4184

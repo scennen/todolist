@@ -19,7 +19,7 @@
    Это автоматически поднимет базу данных, backend (Django) и frontend (React). Все миграции и начальные данные создаются автоматически.
 
 3. Откройте в браузере:
-   - Frontend: [http://localhost:3000](http://localhost:3000)
+   - Frontend: [http://localhost](http://localhost)
    - Backend (Django API): [http://localhost:8000](http://localhost:8000)
    - Админка Django: [http://localhost:8000/admin](http://localhost:8000/admin)
 
