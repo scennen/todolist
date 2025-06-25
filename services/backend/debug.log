@@ -675,3 +675,210 @@ INFO 2025-06-25 01:47:35,862 basehttp 9264 14480 "GET /admin/todo/task/ HTTP/1.1
 INFO 2025-06-25 01:47:35,862 basehttp 9264 14480 "GET /admin/todo/task/ HTTP/1.1" 200 12446
 INFO 2025-06-25 01:47:35,923 basehttp 9264 14480 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
 INFO 2025-06-25 01:47:35,923 basehttp 9264 14480 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-26 00:36:23,108 autoreload 10756 15964 Watching for file changes with StatReloader
+INFO 2025-06-26 00:36:23,108 autoreload 10756 15964 Watching for file changes with StatReloader
+INFO 2025-06-26 00:39:45,618 autoreload 8560 1208 Watching for file changes with StatReloader
+INFO 2025-06-26 00:39:45,618 autoreload 8560 1208 Watching for file changes with StatReloader
+WARNING 2025-06-26 00:41:39,984 log 8560 7016 Forbidden: /api/user/
+WARNING 2025-06-26 00:41:39,984 log 8560 7016 Forbidden: /api/user/
+WARNING 2025-06-26 00:41:39,985 basehttp 8560 7016 "GET /api/user/ HTTP/1.1" 403 58
+WARNING 2025-06-26 00:41:39,985 basehttp 8560 7016 "GET /api/user/ HTTP/1.1" 403 58
+WARNING 2025-06-26 00:41:40,063 log 8560 6048 Forbidden: /api/user/
+WARNING 2025-06-26 00:41:40,063 log 8560 6048 Forbidden: /api/user/
+WARNING 2025-06-26 00:41:40,063 basehttp 8560 6048 "GET /api/user/ HTTP/1.1" 403 58
+WARNING 2025-06-26 00:41:40,063 basehttp 8560 6048 "GET /api/user/ HTTP/1.1" 403 58
+INFO 2025-06-26 00:41:40,087 basehttp 8560 9524 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-26 00:41:40,087 basehttp 8560 9524 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-26 00:41:40,167 basehttp 8560 8944 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-26 00:41:40,167 basehttp 8560 8944 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 20:02:47,756 autoreload 16 126510056446848 Watching for file changes with StatReloader
+INFO 2025-06-25 20:02:47,756 autoreload 16 126510056446848 Watching for file changes with StatReloader
+INFO 2025-06-25 20:12:34,081 autoreload 16 126658755623808 Watching for file changes with StatReloader
+INFO 2025-06-25 20:12:34,081 autoreload 16 126658755623808 Watching for file changes with StatReloader
+INFO 2025-06-25 20:17:24,889 autoreload 16 137872973118336 Watching for file changes with StatReloader
+INFO 2025-06-25 20:17:24,889 autoreload 16 137872973118336 Watching for file changes with StatReloader
+WARNING 2025-06-25 20:18:22,700 log 16 137872812275392 Forbidden: /api/user/
+WARNING 2025-06-25 20:18:22,700 log 16 137872812275392 Forbidden: /api/user/
+WARNING 2025-06-25 20:18:22,706 basehttp 16 137872812275392 "GET /api/user/ HTTP/1.1" 403 58
+WARNING 2025-06-25 20:18:22,706 basehttp 16 137872812275392 "GET /api/user/ HTTP/1.1" 403 58
+WARNING 2025-06-25 20:18:22,721 log 16 137872812275392 Forbidden: /api/user/
+INFO 2025-06-25 20:18:22,722 basehttp 16 137872803882688 "GET /api/priorities/ HTTP/1.1" 200 125
+WARNING 2025-06-25 20:18:22,721 log 16 137872812275392 Forbidden: /api/user/
+INFO 2025-06-25 20:18:22,722 basehttp 16 137872803882688 "GET /api/priorities/ HTTP/1.1" 200 125
+WARNING 2025-06-25 20:18:22,724 basehttp 16 137872812275392 "GET /api/user/ HTTP/1.1" 403 58
+WARNING 2025-06-25 20:18:22,724 basehttp 16 137872812275392 "GET /api/user/ HTTP/1.1" 403 58
+INFO 2025-06-25 20:18:22,748 basehttp 16 137872803882688 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 20:18:22,748 basehttp 16 137872803882688 "GET /api/priorities/ HTTP/1.1" 200 125
+DEBUG 2025-06-25 20:19:09,213 models 16 137872803882688 create_user called with email=user5@gmail.com, extra_fields={'username': 'user5'}
+DEBUG 2025-06-25 20:19:09,213 models 16 137872803882688 create_user called with email=user5@gmail.com, extra_fields={'username': 'user5'}
+DEBUG 2025-06-25 20:19:09,633 models 16 137872803882688 User created: user5
+DEBUG 2025-06-25 20:19:09,633 models 16 137872803882688 User created: user5
+INFO 2025-06-25 20:19:09,635 basehttp 16 137872803882688 "POST /api/register/ HTTP/1.1" 201 34
+INFO 2025-06-25 20:19:09,635 basehttp 16 137872803882688 "POST /api/register/ HTTP/1.1" 201 34
+INFO 2025-06-25 20:19:12,175 basehttp 16 137872812275392 "POST /api/login/ HTTP/1.1" 200 53
+INFO 2025-06-25 20:19:12,175 basehttp 16 137872812275392 "POST /api/login/ HTTP/1.1" 200 53
+INFO 2025-06-25 20:19:12,222 basehttp 16 137872795489984 "GET /api/tasks/ HTTP/1.1" 200 2
+INFO 2025-06-25 20:19:12,222 basehttp 16 137872795489984 "GET /api/tasks/ HTTP/1.1" 200 2
+ERROR 2025-06-25 20:19:18,137 log 16 137872787097280 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/usr/local/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2025-06-25 20:19:18,137 log 16 137872787097280 Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.13/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/usr/local/lib/python3.13/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/usr/local/lib/python3.13/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2025-06-25 20:19:18,142 basehttp 16 137872787097280 "GET / HTTP/1.1" 500 74812
+ERROR 2025-06-25 20:19:18,142 basehttp 16 137872787097280 "GET / HTTP/1.1" 500 74812
+WARNING 2025-06-25 20:19:18,450 log 16 137872787097280 Not Found: /favicon.ico
+WARNING 2025-06-25 20:19:18,450 log 16 137872787097280 Not Found: /favicon.ico
+WARNING 2025-06-25 20:19:18,451 basehttp 16 137872787097280 "GET /favicon.ico HTTP/1.1" 404 3353
+WARNING 2025-06-25 20:19:18,451 basehttp 16 137872787097280 "GET /favicon.ico HTTP/1.1" 404 3353
+INFO 2025-06-25 20:19:44,009 basehttp 16 137872795489984 "GET /admin HTTP/1.1" 301 0
+INFO 2025-06-25 20:19:44,009 basehttp 16 137872795489984 "GET /admin HTTP/1.1" 301 0
+INFO 2025-06-25 20:19:44,053 basehttp 16 137872778704576 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-06-25 20:19:44,053 basehttp 16 137872778704576 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-06-25 20:19:44,124 basehttp 16 137872778704576 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3698
+INFO 2025-06-25 20:19:44,124 basehttp 16 137872778704576 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3698
+INFO 2025-06-25 20:19:44,206 basehttp 16 137872778704576 "GET /static/admin/css/base.css HTTP/1.1" 200 22154
+INFO 2025-06-25 20:19:44,206 basehttp 16 137872778704576 "GET /static/admin/css/base.css HTTP/1.1" 200 22154
+INFO 2025-06-25 20:19:44,240 basehttp 16 137872795489984 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+INFO 2025-06-25 20:19:44,241 basehttp 16 137872812275392 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2025-06-25 20:19:44,240 basehttp 16 137872795489984 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+INFO 2025-06-25 20:19:44,241 basehttp 16 137872812275392 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2025-06-25 20:19:44,242 basehttp 16 137872803882688 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2025-06-25 20:19:44,244 basehttp 16 137872770311872 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16632
+INFO 2025-06-25 20:19:44,242 basehttp 16 137872803882688 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2025-06-25 20:19:44,244 basehttp 16 137872770311872 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16632
+INFO 2025-06-25 20:19:44,278 basehttp 16 137872761919168 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-06-25 20:19:44,278 basehttp 16 137872761919168 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-06-25 20:19:44,297 basehttp 16 137872770311872 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-06-25 20:19:44,297 basehttp 16 137872770311872 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+WARNING 2025-06-25 20:19:44,430 log 16 137872770311872 Not Found: /favicon.ico
+WARNING 2025-06-25 20:19:44,430 log 16 137872770311872 Not Found: /favicon.ico
+WARNING 2025-06-25 20:19:44,431 basehttp 16 137872770311872 "GET /favicon.ico HTTP/1.1" 404 3353
+WARNING 2025-06-25 20:19:44,431 basehttp 16 137872770311872 "GET /favicon.ico HTTP/1.1" 404 3353
+INFO 2025-06-25 20:19:51,152 basehttp 16 137872795489984 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 3866
+INFO 2025-06-25 20:19:51,152 basehttp 16 137872795489984 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 3866
+DEBUG 2025-06-25 20:21:32,205 models 38 136859693165440 create_user called with email=egor.kostousov535@gmail.com, extra_fields={'username': 'admin', 'is_staff': True, 'is_superuser': True}
+DEBUG 2025-06-25 20:21:32,205 models 38 136859693165440 create_user called with email=egor.kostousov535@gmail.com, extra_fields={'username': 'admin', 'is_staff': True, 'is_superuser': True}
+DEBUG 2025-06-25 20:21:32,622 models 38 136859693165440 User created: admin
+DEBUG 2025-06-25 20:21:32,622 models 38 136859693165440 User created: admin
+INFO 2025-06-25 20:21:39,421 basehttp 16 137872770311872 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 3866
+INFO 2025-06-25 20:21:39,421 basehttp 16 137872770311872 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 3866
+INFO 2025-06-25 20:21:42,376 basehttp 16 137872770311872 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 3866
+INFO 2025-06-25 20:21:42,376 basehttp 16 137872770311872 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 3866
+INFO 2025-06-25 20:21:47,648 basehttp 16 137872770311872 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-06-25 20:21:47,648 basehttp 16 137872770311872 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-06-25 20:21:47,683 basehttp 16 137872770311872 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3698
+INFO 2025-06-25 20:21:47,683 basehttp 16 137872770311872 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3698
+INFO 2025-06-25 20:21:55,852 basehttp 16 137872761919168 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-06-25 20:21:55,852 basehttp 16 137872761919168 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-06-25 20:21:55,888 basehttp 16 137872761919168 "GET /admin/ HTTP/1.1" 200 9510
+INFO 2025-06-25 20:21:55,888 basehttp 16 137872761919168 "GET /admin/ HTTP/1.1" 200 9510
+INFO 2025-06-25 20:21:55,980 basehttp 16 137872761919168 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-06-25 20:21:55,980 basehttp 16 137872761919168 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-06-25 20:21:56,003 basehttp 16 137872812275392 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-06-25 20:21:56,003 basehttp 16 137872812275392 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-06-25 20:21:56,026 basehttp 16 137872770311872 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-06-25 20:21:56,026 basehttp 16 137872770311872 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-06-25 20:21:58,173 basehttp 16 137872770311872 "GET /admin/todo/user/ HTTP/1.1" 200 11405
+INFO 2025-06-25 20:21:58,173 basehttp 16 137872770311872 "GET /admin/todo/user/ HTTP/1.1" 200 11405
+INFO 2025-06-25 20:21:58,247 basehttp 16 137872770311872 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2025-06-25 20:21:58,247 basehttp 16 137872770311872 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2025-06-25 20:21:58,273 basehttp 16 137872795489984 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-06-25 20:21:58,273 basehttp 16 137872795489984 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-06-25 20:21:58,277 basehttp 16 137872803882688 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-06-25 20:21:58,277 basehttp 16 137872803882688 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-06-25 20:21:58,283 basehttp 16 137872778704576 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-06-25 20:21:58,283 basehttp 16 137872778704576 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-06-25 20:21:58,295 basehttp 16 137872770311872 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-06-25 20:21:58,295 basehttp 16 137872770311872 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-06-25 20:21:58,297 basehttp 16 137872795489984 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-06-25 20:21:58,298 basehttp 16 137872761919168 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 20:21:58,297 basehttp 16 137872795489984 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-06-25 20:21:58,300 basehttp 16 137872803882688 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-06-25 20:21:58,298 basehttp 16 137872761919168 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 20:21:58,300 basehttp 16 137872803882688 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-06-25 20:21:58,307 basehttp 16 137872812275392 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-06-25 20:21:58,307 basehttp 16 137872812275392 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-06-25 20:21:58,311 basehttp 16 137872778704576 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-06-25 20:21:58,311 basehttp 16 137872778704576 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-06-25 20:21:58,324 basehttp 16 137872812275392 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-06-25 20:21:58,324 basehttp 16 137872812275392 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-06-25 20:21:58,345 basehttp 16 137872778704576 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-06-25 20:21:58,345 basehttp 16 137872778704576 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-06-25 20:22:02,158 basehttp 16 137872761919168 "GET /admin/todo/task/ HTTP/1.1" 200 9884
+INFO 2025-06-25 20:22:02,158 basehttp 16 137872761919168 "GET /admin/todo/task/ HTTP/1.1" 200 9884
+INFO 2025-06-25 20:22:02,202 basehttp 16 137872761919168 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 20:22:02,202 basehttp 16 137872761919168 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-06-25 20:27:25,958 basehttp 16 137872812275392 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 20:27:25,958 basehttp 16 137872778704576 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 20:27:25,958 basehttp 16 137872812275392 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 20:27:25,958 basehttp 16 137872778704576 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 20:27:26,033 basehttp 16 137872803882688 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 20:27:26,033 basehttp 16 137872803882688 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 20:27:26,035 basehttp 16 137872795489984 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 20:27:26,035 basehttp 16 137872795489984 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 20:27:32,594 views 16 137872795489984 MistralView POST called
+INFO 2025-06-25 20:27:32,594 views 16 137872795489984 MistralView POST called
+INFO 2025-06-25 20:27:32,595 views 16 137872795489984 MISTRAL_API_KEY найден
+INFO 2025-06-25 20:27:32,595 views 16 137872795489984 MISTRAL_API_KEY найден
+INFO 2025-06-25 20:27:32,596 views 16 137872795489984 Получен файл: Сегодня очень срочно мне нужно проч.txt, размер: 179 байт
+INFO 2025-06-25 20:27:32,596 views 16 137872795489984 Получен файл: Сегодня очень срочно мне нужно проч.txt, размер: 179 байт
+INFO 2025-06-25 20:27:34,982 _client 16 137872795489984 HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-06-25 20:27:35,010 basehttp 16 137872795489984 "POST /api/mistral/ HTTP/1.1" 201 619
+INFO 2025-06-25 20:27:35,010 basehttp 16 137872795489984 "POST /api/mistral/ HTTP/1.1" 201 619
+INFO 2025-06-25 20:27:35,038 basehttp 16 137872803882688 "GET /api/tasks/ HTTP/1.1" 200 619
+INFO 2025-06-25 20:27:35,038 basehttp 16 137872803882688 "GET /api/tasks/ HTTP/1.1" 200 619
+INFO 2025-06-25 20:27:35,091 basehttp 16 137872803882688 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 20:27:35,091 basehttp 16 137872803882688 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 20:27:35,097 basehttp 16 137872795489984 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 20:27:35,097 basehttp 16 137872795489984 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 20:27:35,119 basehttp 16 137872778704576 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 20:27:35,119 basehttp 16 137872778704576 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 20:27:35,121 basehttp 16 137872812275392 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 20:27:35,121 basehttp 16 137872812275392 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 20:27:35,144 basehttp 16 137872761919168 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 20:27:35,144 basehttp 16 137872761919168 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 20:27:35,154 basehttp 16 137872409622208 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 20:27:35,154 basehttp 16 137872409622208 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 20:27:35,171 basehttp 16 137872761919168 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 20:27:35,171 basehttp 16 137872761919168 "GET /api/priorities/ HTTP/1.1" 200 125
+INFO 2025-06-25 20:27:35,181 basehttp 16 137872409622208 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 20:27:35,181 basehttp 16 137872409622208 "GET /api/statuses/ HTTP/1.1" 200 101
+INFO 2025-06-25 20:27:37,402 basehttp 16 137872812275392 "DELETE /api/tasks/1/ HTTP/1.1" 204 0
+INFO 2025-06-25 20:27:37,402 basehttp 16 137872812275392 "DELETE /api/tasks/1/ HTTP/1.1" 204 0
+INFO 2025-06-25 20:27:37,435 basehttp 16 137872778704576 "GET /api/tasks/ HTTP/1.1" 200 304
+INFO 2025-06-25 20:27:37,435 basehttp 16 137872778704576 "GET /api/tasks/ HTTP/1.1" 200 304
+INFO 2025-06-25 20:27:37,869 basehttp 16 137872795489984 "DELETE /api/tasks/2/ HTTP/1.1" 204 0
+INFO 2025-06-25 20:27:37,869 basehttp 16 137872795489984 "DELETE /api/tasks/2/ HTTP/1.1" 204 0
+INFO 2025-06-25 20:27:37,893 basehttp 16 137872803882688 "GET /api/tasks/ HTTP/1.1" 200 2
+INFO 2025-06-25 20:27:37,893 basehttp 16 137872803882688 "GET /api/tasks/ HTTP/1.1" 200 2
+INFO 2025-06-25 20:28:01,850 autoreload 16 137872973118336 /app/todo/signals.py changed, reloading.
+INFO 2025-06-25 20:28:01,850 autoreload 16 137872973118336 /app/todo/signals.py changed, reloading.
+INFO 2025-06-25 20:28:03,993 autoreload 76 135651433532288 Watching for file changes with StatReloader
+INFO 2025-06-25 20:28:03,993 autoreload 76 135651433532288 Watching for file changes with StatReloader
